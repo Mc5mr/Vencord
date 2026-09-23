@@ -26,22 +26,37 @@
     background: var(--background-modifier-hover, #ffffff12);
 }
 
-.vc-afkp-title { display: inline-flex; align-items: center; gap: 9px; }
-.vc-afkp-shell { padding: 0 20px 18px; color: var(--text-normal, #dbdee1); }
+.vc-afkp-title { display: inline-flex; align-items: center; gap: 12px; font-size: 24px; }
+.vc-afkp-title svg { width: 26px; height: 26px; color: var(--brand-400, #949cf7); }
+[role="dialog"]:has(.vc-afkp-shell) { width: min(1040px, calc(100vw - 40px)); max-width: calc(100vw - 40px); }
+.vc-afkp-shell { padding: 0 24px 22px; box-sizing: border-box; color: var(--text-normal, #dbdee1); max-height: calc(88vh - 130px); min-height: min(580px, calc(88vh - 130px)); overflow-y: auto; scrollbar-width: thin; scrollbar-color: var(--background-tertiary, #1e1f22) transparent; }
 .vc-afkp-tabs { display: flex; align-items: center; gap: 5px; border-bottom: 1px solid var(--border-subtle, #ffffff14); margin-bottom: 18px; }
-.vc-afkp-tab { border-radius: 0; border-bottom: 2px solid transparent; padding: 10px 12px; }
+.vc-afkp-tab { border-radius: 0; border-bottom: 2px solid transparent; padding: 14px 20px; font-size: 14px; }
 .vc-afkp-selected { border-bottom-color: var(--brand-500, #5865f2); color: var(--text-brand, #949cf7); }
-.vc-afkp-service { margin-left: auto; font-size: 11px; color: var(--text-muted, #949ba4); }
+.vc-afkp-service { margin-left: auto; font-size: 12px; color: var(--text-muted, #949ba4); }
 .vc-afkp-online { color: var(--text-positive, #43b581); }
 .vc-afkp-field { display: flex; flex-direction: column; gap: 7px; margin: 12px 0; min-width: 0; font-size: 13px; font-weight: 600; }
 .vc-afkp-ids { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
 .vc-afkp-actions { display: flex; align-items: center; gap: 9px; margin: 4px 0 12px; }
 .vc-afkp-actions > span { margin-left: auto; font-size: 12px; color: var(--text-muted, #949ba4); }
+.vc-afkp-voice-controls { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin: 10px 0; }
+.vc-afkp-voice-controls > span { font-size: 11px; color: var(--text-muted, #949ba4); }
 .vc-afkp-hint { color: var(--text-muted, #949ba4); font-size: 12px; line-height: 1.55; margin: 12px 0; }
 .vc-afkp-destination { font-size: 12px; color: var(--text-muted, #949ba4); overflow-wrap: anywhere; }
 .vc-afkp-destination > span { color: var(--text-normal, #dbdee1); }
-.vc-afkp-sessions { display: grid; gap: 10px; max-height: 270px; overflow-y: auto; margin-top: 17px; }
-.vc-afkp-session { padding: 13px; border: 1px solid var(--border-subtle, #ffffff14); border-radius: 10px; background: var(--background-secondary, #2b2d31); }
+.vc-afkp-sessions { display: grid; gap: 16px; margin: 16px 0; }
+.vc-afkp-account-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); align-items: start; }
+.vc-afkp-session { padding: 18px; border: 1px solid var(--border-subtle, #ffffff14); border-radius: 12px; background: var(--background-secondary, #2b2d31); min-width: 0; }
+.vc-afkp-session-connected { border-color: color-mix(in srgb, var(--text-positive, #43b581) 32%, transparent); }
+.vc-afkp-stats { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; margin-bottom: 20px; }
+.vc-afkp-stats > div { display: flex; flex-direction: column; gap: 12px; padding: 18px; border: 1px solid var(--border-subtle, #ffffff14); border-radius: 12px; background: var(--background-secondary, #2b2d31); }
+.vc-afkp-stats > div > span { color: var(--text-muted, #949ba4); font-size: 12px; }
+.vc-afkp-stats strong { font-size: 26px; font-weight: 700; }
+.vc-afkp-stats small { font-size: 14px; font-weight: 400; color: var(--text-muted, #949ba4); }
+.vc-afkp-account-toolbar { display: grid; grid-template-columns: 1fr 180px; gap: 16px; align-items: end; }
+.vc-afkp-account-name { display: flex; align-items: center; gap: 12px; min-width: 0; }
+.vc-afkp-account-initial { display: grid; place-items: center; width: 38px; height: 38px; flex-shrink: 0; border-radius: 11px; background: color-mix(in srgb, var(--brand-500, #5865f2) 22%, transparent); color: var(--brand-300, #b8bef8); font-size: 12px; font-weight: 700; }
+.vc-afkp-username { display: block; margin-top: 5px; color: var(--text-muted, #949ba4); font-size: 12px; overflow-wrap: anywhere; }
 .vc-afkp-session-top { display: flex; align-items: center; justify-content: space-between; gap: 10px; }
 .vc-afkp-session-top strong { overflow-wrap: anywhere; font-size: 14px; }
 .vc-afkp-session > p { margin: 10px 0; font-size: 12px; line-height: 1.6; color: var(--text-muted, #949ba4); }
@@ -52,10 +67,80 @@
 .vc-afkp-session > .vc-afkp-error { color: var(--text-danger, #fa777c); line-height: 1.5; font-size: 12px; overflow-wrap: anywhere; }
 .vc-afkp-notice { padding: 10px 12px; border-radius: 8px; background: var(--background-modifier-accent, #ffffff12); font-size: 12px; line-height: 1.5; }
 .vc-afkp-about p { margin-bottom: 12px; }
+.vc-afkp-details { margin: 14px 0; padding: 14px; border: 1px solid var(--border-subtle, #ffffff20); border-radius: 9px; }
+.vc-afkp-details[open] > summary { margin-bottom: 16px; }
+.vc-afkp-details summary { cursor: pointer; font-size: 13px; font-weight: 600; }
+.vc-afkp-field select,
+.vc-afkp-field textarea,
+.vc-afkp-field input[type="number"] { background: var(--input-background, #1e1f22); color: inherit; padding: 10px; border: 1px solid var(--border-subtle, #ffffff20); border-radius: 6px; min-width: 0; font: inherit; }
+.vc-afkp-field textarea { resize: vertical; }
+.vc-afkp-checks { display: flex; flex-wrap: wrap; gap: 16px; font-size: 12px; }
+.vc-afkp-checks label { display: flex; align-items: center; gap: 6px; }
+.vc-afkp-checks input { accent-color: var(--brand-500, #5865f2); }
+
+@media (width <= 800px) {
+    .vc-afkp-account-grid { grid-template-columns: 1fr; }
+}
 
 @media (width <= 520px) {
     .vc-afkp-ids { grid-template-columns: 1fr; gap: 0; }
     .vc-afkp-shell { padding-right: 12px; padding-left: 12px; }
     .vc-afkp-service { max-width: 100px; text-align: right; }
     .vc-afkp-session-top { align-items: flex-start; }
+    .vc-afkp-stats { gap: 6px; }
+    .vc-afkp-stats > div { padding: 12px 8px; }
+    .vc-afkp-stats strong { font-size: 21px; }
+    .vc-afkp-account-toolbar { grid-template-columns: 1fr; gap: 0; }
+    .vc-afkp-tab { padding: 12px; }
+}
+.vc-afkp-delete-confirm {
+    border: 1px solid var(--text-danger);
+    border-radius: 8px;
+    padding: 12px;
+    overflow-wrap: anywhere;
+}
+
+/* Account selector and vertical controls from the requested reference. */
+[role="dialog"]:has(.vc-afkp-shell) { width: min(920px, calc(100vw - 36px)); }
+.vc-afkp-shell { background: #303136; padding: 8px 22px 22px; color: #f2f3f5; }
+.vc-afkp-shell h2 { font-size: 24px; font-weight: 700; margin: 0 0 8px; }
+.vc-afkp-shell h3 { font-size: 14px; font-weight: 600; margin: 0; }
+.vc-afkp-shell .vc-afkp-hint { color: #b5bac1; }
+.vc-afkp-topbar, .vc-afkp-list-heading, .vc-afkp-account-heading, .vc-afkp-footer { display: flex; justify-content: space-between; align-items: center; gap: 12px; }
+.vc-afkp-topbar { font-size: 12px; padding: 6px 0 16px; }
+.vc-afkp-topbar > div { display: flex; gap: 8px; }
+.vc-afkp-main-card, .vc-afkp-settings { padding: 24px; border-radius: 9px; background: #38393f; margin-bottom: 16px; }
+.vc-afkp-add-row { display: grid; grid-template-columns: minmax(0, 1fr) 92px; gap: 14px; margin-top: 20px; align-items: center; }
+.vc-afkp-add-row > div, .vc-afkp-add-row input { min-width: 0; }
+.vc-afkp-list-heading { margin: 26px 0 18px; }
+.vc-afkp-list-heading > div { max-width: 190px; }
+.vc-afkp-list-heading small { color: #b5bac1; font-weight: 400; margin-inline-start: 8px; }
+.vc-afkp-account-strip { display: flex; flex-wrap: wrap; gap: 12px; margin: 0 0 24px; }
+.vc-afkp-account-tile { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 9px; width: 108px; min-height: 110px; padding: 12px 8px; border: 2px solid transparent; border-radius: 8px; background: #50535a; color: #f2f3f5; cursor: pointer; font: inherit; }
+.vc-afkp-account-tile:focus-visible { outline: 2px solid #b8bef8; outline-offset: 3px; }
+.vc-afkp-account-tile:hover { background: #5b5e65; }
+.vc-afkp-account-tile.vc-afkp-account-selected { background: #5865f2; border-color: #8e97ff; }
+.vc-afkp-account-tile strong { max-width: 100%; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; font-size: 12px; font-weight: 500; }
+.vc-afkp-account-tile > span:last-child { font-size: 10px; opacity: .85; }
+.vc-afkp-avatar { display: grid; place-items: center; width: 38px; height: 38px; border-radius: 50%; background: #fff; color: #5865f2; font-size: 12px; }
+.vc-afkp-account-heading { padding: 4px 0 16px; border-bottom: 1px solid #ffffff12; }
+.vc-afkp-account-heading h3 { margin-bottom: 7px; }
+.vc-afkp-account-heading span { color: #b5bac1; font-size: 11px; }
+.vc-afkp-device-chip { padding: 5px 8px; border: 1px solid #ffffff20; border-radius: 12px; }
+.vc-afkp-control-section { padding-top: 25px; }
+.vc-afkp-control-section .vc-afkp-field > span { font-size: 11px; color: #b5bac1; }
+.vc-afkp-control-section .vc-afkp-field { margin-top: 14px; }
+.vc-afkp-voice-controls > button { min-width: 124px; justify-content: center; }
+.vc-afkp-workspace .vc-afkp-ids { align-items: center; }
+.vc-afkp-shell input[type="text"], .vc-afkp-shell input[type="password"] { background: #202125; color: #f2f3f5; text-align: right; }
+.vc-afkp-shell input[type="password"] { direction: ltr; }
+.vc-afkp-shell button:disabled { opacity: .45; cursor: not-allowed; }
+.vc-afkp-footer { color: #b5bac1; font-size: 11px; line-height: 1.6; }
+@media (width <= 620px) {
+    .vc-afkp-topbar, .vc-afkp-footer { align-items: flex-start; flex-direction: column; }
+    .vc-afkp-main-card, .vc-afkp-settings { padding: 16px; }
+    .vc-afkp-add-row { grid-template-columns: minmax(0, 1fr) 74px; gap: 8px; }
+    .vc-afkp-account-strip { gap: 8px; }
+    .vc-afkp-account-tile { width: 94px; min-height: 104px; }
+    .vc-afkp-list-heading { flex-wrap: wrap; }
 }
