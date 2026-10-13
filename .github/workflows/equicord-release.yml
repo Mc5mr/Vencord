@@ -21,7 +21,7 @@ jobs:
         run: |
           set -euo pipefail
           tag=$(python3 -c 'import json; print(json.load(open("equicord-release.json"))["tag_name"])')
-          gh release create "$tag" release-files/* --repo "$GITHUB_REPOSITORY" --target "$GITHUB_SHA" --title "Mc5mr Equicord $tag" --latest --notes 'Windows x64 GUI. Fix repeated stereo activation and reconnect rollback. Compact microphone layout, profile icon actions and one-click Apply. The real upstream addon regression is tested in an isolated native fixture. Installation and updates require no account. Apply the app update with Reinstall / Repair, fully quit Discord from the tray, then relaunch. Use a stereo input with Krisp and Echo Cancellation off; confirm actual left/right audio with a listener.'
+          gh release create "$tag" release-files/* --repo "$GITHUB_REPOSITORY" --target "$GITHUB_SHA" --title "Mc5mr Equicord $tag" --latest --notes 'Windows x64 GUI. Repair CallTimer and Translate/Translate+ compatibility with current Discord, including shared message toolbar buttons and scrollers. Replace BetterMicrophone with upstream VoicePatcher. Add six follow controls, event-driven full-room vacancy joining, and a one-click read button beside the Direct Messages list heading. Installation and updates require no account. Apply the app update with Reinstall / Repair, fully quit Discord from the tray, then relaunch. For stereo, use a stereo input with Krisp and Echo Cancellation off and confirm left/right audio with a listener. Native addon fixtures do not establish real microphone output.'
       - name: Verify account-free download access
         run: |
           set -euo pipefail
