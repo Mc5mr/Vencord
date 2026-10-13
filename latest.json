@@ -1,11 +1,11 @@
 {
-  "tag_name": "equicord-v22-14",
+  "tag_name": "equicord-v23-15",
   "draft": false,
   "prerelease": false,
   "assets": [
     {
       "name": "desktop.asar",
-      "size": 3885363
+      "size": 3880286
     },
     {
       "name": "desktop.sha256",
@@ -13,7 +13,7 @@
     },
     {
       "name": "Mc5mr-Equicord-Installer.exe",
-      "size": 16181760
+      "size": 16176640
     },
     {
       "name": "Mc5mr-Equicord-Installer.exe.sha256",
