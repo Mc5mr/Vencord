@@ -21,7 +21,7 @@ jobs:
         run: |
           set -euo pipefail
           tag=$(python3 -c 'import json; print(json.load(open("equicord-release.json"))["tag_name"])')
-          gh release create "$tag" release-files/* --repo "$GITHUB_REPOSITORY" --target "$GITHUB_SHA" --title "Mc5mr Equicord $tag" --latest --notes 'Windows x64 GUI. Install and update without signing in. Includes compact controls, saved microphone settings, DM/group previews and local friend previews. Legacy StereoInstaller and StereoMic have been removed.'
+          gh release create "$tag" release-files/* --repo "$GITHUB_REPOSITORY" --target "$GITHUB_SHA" --title "Mc5mr Equicord $tag" --latest --notes 'Windows x64 GUI. Install and update without signing in. BetterMicrophone replaces the old microphone plugin and toolbar entry, preserves saved profiles and adds verified native stereo. Enable Stereo in BetterMicrophone and press Apply. Use a stereo input with Krisp and Echo Cancellation off. Native status reports compatibility; confirm actual left/right audio with a listener.'
       - name: Verify account-free download access
         run: |
           set -euo pipefail
@@ -37,3 +37,4 @@ jobs:
           git add latest.json
           git commit -m 'Update public Equicord download feed'
           git push origin HEAD:equicord-updates
+
