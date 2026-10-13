@@ -22,6 +22,13 @@ jobs:
           set -euo pipefail
           tag=$(python3 -c 'import json; print(json.load(open("equicord-release.json"))["tag_name"])')
           gh release create "$tag" release-files/* --repo "$GITHUB_REPOSITORY" --target "$GITHUB_SHA" --title "Mc5mr Equicord $tag" --latest --notes 'Windows x64 GUI. Install and update without signing in. Includes compact controls, saved microphone settings, DM/group previews and local friend previews. Legacy StereoInstaller and StereoMic have been removed.'
+      - name: Verify account-free download access
+        run: |
+          set -euo pipefail
+          tag=$(python3 -c 'import json; print(json.load(open("equicord-release.json"))["tag_name"])')
+          for file in release-files/*; do
+            curl --fail --silent --show-error --location --head --retry 3 --max-time 60 "https://github.com/$GITHUB_REPOSITORY/releases/download/$tag/$(basename "$file")" > /dev/null
+          done
       - name: Update public feed after successful publication
         run: |
           set -euo pipefail
