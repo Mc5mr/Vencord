@@ -21,7 +21,7 @@ jobs:
         run: |
           set -euo pipefail
           tag=$(python3 -c 'import json; print(json.load(open("equicord-release.json"))["tag_name"])')
-          gh release create "$tag" release-files/* --repo "$GITHUB_REPOSITORY" --target "$GITHUB_SHA" --title "Mc5mr Equicord $tag" --latest --notes 'Windows x64 GUI. Install and update without signing in. BetterMicrophone replaces the old microphone plugin and toolbar entry, preserves saved profiles and adds verified native stereo. Enable Stereo in BetterMicrophone and press Apply. Use a stereo input with Krisp and Echo Cancellation off. Native status reports compatibility; confirm actual left/right audio with a listener.'
+          gh release create "$tag" release-files/* --repo "$GITHUB_REPOSITORY" --target "$GITHUB_SHA" --title "Mc5mr Equicord $tag" --latest --notes 'Windows x64 GUI. Fix repeated stereo activation and reconnect rollback. Compact microphone layout, profile icon actions and one-click Apply. The real upstream addon regression is tested in an isolated native fixture. Installation and updates require no account. Apply the app update with Reinstall / Repair, fully quit Discord from the tray, then relaunch. Use a stereo input with Krisp and Echo Cancellation off; confirm actual left/right audio with a listener.'
       - name: Verify account-free download access
         run: |
           set -euo pipefail

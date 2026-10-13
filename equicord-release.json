@@ -1,27 +1,27 @@
 {
-  "tag_name": "equicord-v21-13",
-  "archive_url": "https://sdmntprindiasocentral.oaiusercontent.com/files/00000000-d8c0-8211-90c2-947f0907063b/raw?se=2026-10-13T19%3A03%3A58Z&sp=r&sv=2026-02-06&sr=b&scid=7b95ba0b-acec-9cc8-879b-b883fa35d633&skoid=a3d7d4f3-706d-48bc-8860-17488c12cb39&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-13T01%3A12%3A50Z&ske=2026-10-14T01%3A12%3A50Z&sks=b&skv=2026-02-06&sig=wt9ZaRdTR0NuAYBQWdpMLpCQG1QOzF68xvdkxpkp/hY%3D",
-  "archive_sha256": "84af476e4d08876d2f1b25cb8cbe930ade2cdd3a45535c3888710a16bde2eaba",
+  "tag_name": "equicord-v22-14",
+  "archive_url": "https://sdmntprnortheu.oaiusercontent.com/files/00000000-0bac-81f4-94de-7abf359367e2/raw?se=2026-10-13T19%3A50%3A22Z&sp=r&sv=2026-02-06&sr=b&scid=e39484ad-e98d-412f-8835-5366d44aff78&skoid=a0b9f82a-c86e-4064-a822-2aa38890bb37&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-13T03%3A51%3A50Z&ske=2026-10-14T03%3A51%3A50Z&sks=b&skv=2026-02-06&sig=c2SGyYFdlAkP/j%2BpriR4pPMaAH885U0UoKcMwuHneZQ%3D",
+  "archive_sha256": "bc4d47b56bf99ea37d384208099876dc2178648957feacb2855bae8d944b93f4",
   "assets": [
     {
       "name": "desktop.asar",
-      "size": 3883998,
-      "sha256": "bfda0b19941266e98b62160af849198ee8a6a8b67a5bfb999fbbdb1735257e8a"
+      "size": 3885363,
+      "sha256": "7e4d8bafef45478749a7dbf4469169f56f1ccb90b82c50d600e46c4439bb8946"
     },
     {
       "name": "desktop.sha256",
       "size": 65,
-      "sha256": "bd29c0c0fb375333e2b1f64b89157e97072d39442b23cb609c5dd4b77e10ce0f"
+      "sha256": "50f0c9900d7fd40ad149eb0cfc2b54aff4bbeff2b93b6bb3caf2ba8da7561a2d"
     },
     {
       "name": "Mc5mr-Equicord-Installer.exe",
-      "size": 16180224,
-      "sha256": "73f0a861f4ca694d6938822413a4b1971d74bbe892cda49c3d043007afe315a7"
+      "size": 16181760,
+      "sha256": "fd99ce0e561ed6a0c2f2bd6368fea89c861e096aa08a837a3decd1578f7a4c8a"
     },
     {
       "name": "Mc5mr-Equicord-Installer.exe.sha256",
       "size": 66,
-      "sha256": "460c42b66846310fbe6559a442b679f5649a48df1f9f20b6fbb05563f0d0629e"
+      "sha256": "67b1689b33289305e70ebc3f22e2bc8b39730edf7ff2100dd135e9db3fc0cf0e"
     }
   ]
 }
