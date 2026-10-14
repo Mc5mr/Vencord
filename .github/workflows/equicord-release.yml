@@ -21,7 +21,7 @@ jobs:
         run: |
           set -euo pipefail
           tag=$(python3 -c 'import json; print(json.load(open("equicord-release.json"))["tag_name"])')
-          gh release create "$tag" release-files/* --repo "$GITHUB_REPOSITORY" --target "$GITHUB_SHA" --title "Mc5mr Equicord $tag" --latest --notes 'Windows x64 GUI. Sync current Equicord fixes, repair live plugin activation, add persistent microphone stereo, center Follow and place one-click DM/group read in the top toolbar. Add localized message ages and update GIF providers. Anonymous updates are verified and staged for the next full restart. Update this GUI once, use Reinstall / Repair, fully quit Discord from the tray, then relaunch. Stereo uses a stereo input with Krisp and Echo Cancellation off. Receiver audio must be tested; four-channel delivery is not established.'
+          gh release create "$tag" release-files/* --repo "$GITHUB_REPOSITORY" --target "$GITHUB_SHA" --title "Mc5mr Equicord $tag" --latest --notes 'Windows x64 GUI. Replace the old stereo settings and memory patcher with the bundled Discord Audio Collective Stereo Hub. The lower voice button opens the original tool for Patch and Revert, with complete verified backups and only the selected Discord client affected. Remove the upper Follow button and voice room search, and move Read All to the far left. Improve Windows GUI updater startup on slower systems. No account or password is required for installation or updates. Fully quit Discord from the tray and relaunch after updating. The upstream stereo project is discontinued; live receiver audio compatibility with newer Discord builds remains unverified.'
       - name: Verify account-free download access
         run: |
           set -euo pipefail
