@@ -71,4 +71,4 @@ if __name__ == "__main__":
     output.mkdir(exist_ok=True)
     for name, content in files.items():
         (output / name).write_bytes(content)
-    Path("latest.json").write_text(json.dumps({"tag_name": manifest["tag_name"], "draft": False, "prerelease": False, "assets": [{"name": a["name"], "size": a["size"]} for a in manifest["assets"]]}, indent=2) + "\n")
+    Path("latest.json").write_text(json.dumps({"tag_name": manifest["tag_name"], "draft": False, "prerelease": False, "assets": [{"name": a["name"], "size": a["size"], "sha256": a["sha256"]} for a in manifest["assets"]]}, indent=2) + "\n")

@@ -21,7 +21,7 @@ jobs:
         run: |
           set -euo pipefail
           tag=$(python3 -c 'import json; print(json.load(open("equicord-release.json"))["tag_name"])')
-          gh release create "$tag" release-files/* --repo "$GITHUB_REPOSITORY" --target "$GITHUB_SHA" --title "Mc5mr Equicord $tag" --latest --notes 'Windows x64 GUI. Repair CallTimer and Translate/Translate+ compatibility with current Discord, including shared message toolbar buttons and scrollers. Replace BetterMicrophone with upstream VoicePatcher. Add six follow controls, event-driven full-room vacancy joining, and a one-click read button beside the Direct Messages list heading. Installation and updates require no account. Apply the app update with Reinstall / Repair, fully quit Discord from the tray, then relaunch. For stereo, use a stereo input with Krisp and Echo Cancellation off and confirm left/right audio with a listener. Native addon fixtures do not establish real microphone output.'
+          gh release create "$tag" release-files/* --repo "$GITHUB_REPOSITORY" --target "$GITHUB_SHA" --title "Mc5mr Equicord $tag" --latest --notes 'Windows x64 GUI. Sync current Equicord fixes, repair live plugin activation, add persistent microphone stereo, center Follow and place one-click DM/group read in the top toolbar. Add localized message ages and update GIF providers. Anonymous updates are verified and staged for the next full restart. Update this GUI once, use Reinstall / Repair, fully quit Discord from the tray, then relaunch. Stereo uses a stereo input with Krisp and Echo Cancellation off. Receiver audio must be tested; four-channel delivery is not established.'
       - name: Verify account-free download access
         run: |
           set -euo pipefail
@@ -37,4 +37,3 @@ jobs:
           git add latest.json
           git commit -m 'Update public Equicord download feed'
           git push origin HEAD:equicord-updates
-
