@@ -1,27 +1,103 @@
 {
-  "tag_name": "equicord-v25-27",
-  "archive_url": "https://sdmntprseasia.oaiusercontent.com/files/00000000-083c-8207-8e48-00af4f9169c3/raw?se=2026-10-15T00%3A37%3A26Z&sp=r&sv=2026-02-06&sr=b&scid=07a55a6c-9322-41e0-b18f-42b07b5eb656&skoid=a3d7d4f3-706d-48bc-8860-17488c12cb39&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-14T04%3A57%3A54Z&ske=2026-10-15T04%3A57%3A54Z&sks=b&skv=2026-02-06&sig=uSdw5s8KHMr71Ei4MVO7evohDrVjKKJP8xUrNPBLTvE%3D",
-  "archive_sha256": "93490f3e12f4962fb652ab2fd5722ad88a0e10fd183fbfa61eee54bf6b372f14",
+  "tag_name": "equicord-v25-28",
+  "archive_sha256": "5143c4b93900b4ee50ce66cba1b0179c314d5d7967f9779eb07f7a2eef3e93c6",
+  "archive_parts": [
+    {
+      "path": "release-parts/equicord-v25-28/part-000.bin",
+      "size": 2097152,
+      "sha256": "57c8476cb1ee083aa8a669f557f4900a67fa47bdd0374de9dfbf19917634bae5"
+    },
+    {
+      "path": "release-parts/equicord-v25-28/part-001.bin",
+      "size": 2097152,
+      "sha256": "5549943213807c7b803350c8794f8089957e98807c9bf20f210a11e97e4385e8"
+    },
+    {
+      "path": "release-parts/equicord-v25-28/part-002.bin",
+      "size": 2097152,
+      "sha256": "f621cd3d6e737c735b8106e65877126feb49223dd51cff6c8c8fd92f1f7e703b"
+    },
+    {
+      "path": "release-parts/equicord-v25-28/part-003.bin",
+      "size": 2097152,
+      "sha256": "65b50fe0dff7465a307ba2eac3f343a1f97c223c3f54ea58d7689f223d9a1dd6"
+    },
+    {
+      "path": "release-parts/equicord-v25-28/part-004.bin",
+      "size": 2097152,
+      "sha256": "c0763b3495835b909cd7262e943782ca10472e5145b998a2f75e231e18a45d36"
+    },
+    {
+      "path": "release-parts/equicord-v25-28/part-005.bin",
+      "size": 2097152,
+      "sha256": "f1eae331eae310239a03a5c5ca31a18f8455baf78d03347db5d29560faaaf4db"
+    },
+    {
+      "path": "release-parts/equicord-v25-28/part-006.bin",
+      "size": 2097152,
+      "sha256": "1f1412fc847a9a1249c0e031b84468d07fbb6484f7b9d16280414c9ab66f832b"
+    },
+    {
+      "path": "release-parts/equicord-v25-28/part-007.bin",
+      "size": 2097152,
+      "sha256": "9cf39369a7d3fac2d9304968d0a1d1592640c51ef74a0657f1da9005e88c803d"
+    },
+    {
+      "path": "release-parts/equicord-v25-28/part-008.bin",
+      "size": 2097152,
+      "sha256": "0af1faa47acdafe92f01733d9601e8a0c879a9aae26fe61539ff581c0190a1ac"
+    },
+    {
+      "path": "release-parts/equicord-v25-28/part-009.bin",
+      "size": 2097152,
+      "sha256": "79782e362f7c23ef735c21e6e394410064d5a71ca7a2fabe50f6f6404bddab8c"
+    },
+    {
+      "path": "release-parts/equicord-v25-28/part-010.bin",
+      "size": 2097152,
+      "sha256": "51b34c868ce5b80821a3d8e689b3a54490a81bdaa41d5f6411dc9dbbfd3d80c1"
+    },
+    {
+      "path": "release-parts/equicord-v25-28/part-011.bin",
+      "size": 2097152,
+      "sha256": "dd001119cbbfb897613e20fbcc814fd6e9dc3990b79f151b501ed3ac3a7d33dc"
+    },
+    {
+      "path": "release-parts/equicord-v25-28/part-012.bin",
+      "size": 2097152,
+      "sha256": "46501f1201f13fe917e0c34bd370e2314f8fc2ac2a7240365ff1b10655a29453"
+    },
+    {
+      "path": "release-parts/equicord-v25-28/part-013.bin",
+      "size": 2097152,
+      "sha256": "597309a5f25b6e0d4a8671a63ee17957d24027dc48702c6415bf0b103aed5f35"
+    },
+    {
+      "path": "release-parts/equicord-v25-28/part-014.bin",
+      "size": 1849342,
+      "sha256": "b5abdf5e151c41331625f7d9e36664543c0510563515354a6e1f0c957294b8be"
+    }
+  ],
   "assets": [
     {
       "name": "desktop.asar",
-      "size": 16599967,
-      "sha256": "eb38c5de561b540841a91631c7024318afa4929b1ed2a1c44b8d3120a6737186"
+      "size": 16154572,
+      "sha256": "d6b81e1882a93d3c833c20568bcc3c48825ccb50a32693248609d638116949ab"
     },
     {
       "name": "desktop.sha256",
       "size": 65,
-      "sha256": "7260ae330b7bf8abfe859594b8889af3d119970e8bd63e82f3b7c2804e61b01d"
+      "sha256": "c327ff14b852a8c9ddd703620f3e906292c1dc960d4cf0edd4a551118725b77e"
     },
     {
       "name": "Mc5mr-Equicord-Installer.exe",
-      "size": 28897280,
-      "sha256": "bcd2b7fc5208becb604a4666983f9e4dc3f55ca16b8d83823209fdca93e3c746"
+      "size": 28451840,
+      "sha256": "90ae269f51bee4d3b74a22a1b3aff85105fb53e9e8cf9894509b1cff7d307ab3"
     },
     {
       "name": "Mc5mr-Equicord-Installer.exe.sha256",
       "size": 66,
-      "sha256": "f16360f171a39633cc3759b5d148103282956e6b2d4e0c1abe6416190039e0fe"
+      "sha256": "9baa99696b80080f3db71b4faf6c3dbbac73e4f49542c028fa293c4a21bf871b"
     }
   ]
 }

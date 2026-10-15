@@ -4,8 +4,6 @@ import json
 from pathlib import Path, PurePosixPath
 import re
 import stat
-import urllib.parse
-import urllib.request
 import zipfile
 
 EXPECTED = {"Mc5mr-Equicord-Installer.exe", "Mc5mr-Equicord-Installer.exe.sha256", "desktop.asar", "desktop.sha256"}
@@ -44,29 +42,35 @@ def prepare(manifest, archive):
     return result
 
 
-def download(url):
-    def allowed(value):
-        parsed = urllib.parse.urlsplit(value)
-        return parsed.scheme == "https" and parsed.hostname and parsed.hostname.endswith(".oaiusercontent.com") and not parsed.username and not parsed.password and parsed.port in (None, 443)
-
-    class Redirect(urllib.request.HTTPRedirectHandler):
-        def redirect_request(self, request, fp, code, msg, headers, newurl):
-            if not allowed(newurl):
-                raise ValueError("Unexpected archive redirect")
-            return super().redirect_request(request, fp, code, msg, headers, newurl)
-
-    if not allowed(url):
-        raise ValueError("Unexpected archive host")
-    with urllib.request.build_opener(Redirect()).open(url, timeout=90) as response:
-        data = response.read(64 * 1024 * 1024 + 1)
-    if len(data) > 64 * 1024 * 1024:
-        raise ValueError("Archive exceeds download limit")
-    return data
+def read_parts(manifest):
+    tag = manifest["tag_name"]
+    if not re.fullmatch(r"equicord-v[1-9][0-9]*-[1-9][0-9]*", tag):
+        raise ValueError("Invalid release version")
+    parts = manifest["archive_parts"]
+    if not isinstance(parts, list) or not 1 <= len(parts) <= 32:
+        raise ValueError("Invalid compiled archive parts")
+    result = []
+    total = 0
+    for index, part in enumerate(parts):
+        expected_path = f"release-parts/{tag}/part-{index:03}.bin"
+        if part["path"] != expected_path or not 0 < part["size"] <= 2 * 1024 * 1024:
+            raise ValueError("Invalid compiled archive part")
+        path = Path(expected_path)
+        if path.is_symlink() or not path.is_file() or path.stat().st_size != part["size"]:
+            raise ValueError("Compiled archive part is missing or changed")
+        data = path.read_bytes()
+        if hashlib.sha256(data).hexdigest() != part["sha256"]:
+            raise ValueError("Compiled archive part checksum mismatch")
+        total += len(data)
+        if total > 64 * 1024 * 1024:
+            raise ValueError("Archive exceeds size limit")
+        result.append(data)
+    return b"".join(result)
 
 
 if __name__ == "__main__":
     manifest = json.loads(Path("equicord-release.json").read_text())
-    files = prepare(manifest, download(manifest["archive_url"]))
+    files = prepare(manifest, read_parts(manifest))
     output = Path("release-files")
     output.mkdir(exist_ok=True)
     for name, content in files.items():
