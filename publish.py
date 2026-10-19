@@ -47,7 +47,7 @@ def read_parts(manifest):
     if not re.fullmatch(r"equicord-v[1-9][0-9]*-[1-9][0-9]*", tag):
         raise ValueError("Invalid release version")
     parts = manifest["archive_parts"]
-    if not isinstance(parts, list) or not 1 <= len(parts) <= 48:
+    if not isinstance(parts, list) or not 1 <= len(parts) <= 128:
         raise ValueError("Invalid compiled archive parts")
     result = []
     total = 0
@@ -76,3 +76,4 @@ if __name__ == "__main__":
     for name, content in files.items():
         (output / name).write_bytes(content)
     Path("latest.json").write_text(json.dumps({"tag_name": manifest["tag_name"], "draft": False, "prerelease": False, "assets": [{"name": a["name"], "size": a["size"], "sha256": a["sha256"]} for a in manifest["assets"]]}, indent=2) + "\n")
+

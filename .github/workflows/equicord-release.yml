@@ -21,7 +21,7 @@ jobs:
         run: |
           set -euo pipefail
           tag=$(python3 -c 'import json; print(json.load(open("equicord-release.json"))["tag_name"])')
-          gh release create "$tag" release-files/* --repo "$GITHUB_REPOSITORY" --target "$GITHUB_SHA" --title "Mc5mr Equicord $tag" --latest --notes 'Updates Equicord to upstream c3167a03, restores responsive plugin toggles, and fixes Stereo Hub setup with the verified PTB 1.0.1225 stereo profile. QuestSpoofer is excluded. The installer and package were rebuilt and verified. Fully quit Discord and reopen after updating.'
+          gh release create "$tag" release-files/* --repo "$GITHUB_REPOSITORY" --target "$GITHUB_SHA" --title "Mc5mr Equicord $tag" --latest --notes 'Adds the local Articit Owner profile badge and fixes repeated stereo patch attempts when the verified PTB 1.0.1225 profile is already installed. The package was rebuilt and verified. Fully quit Discord and reopen after updating.'
       - name: Verify account-free download access
         run: |
           set -euo pipefail
@@ -37,3 +37,4 @@ jobs:
           git add latest.json
           git commit -m 'Update public Equicord download feed'
           git push origin HEAD:equicord-updates
+
