@@ -1,5 +1,5 @@
 {
-  "tag_name": "equicord-v25-55",
+  "tag_name": "equicord-v25-56",
   "draft": false,
   "prerelease": false,
   "assets": [
@@ -15,13 +15,13 @@
     },
     {
       "name": "desktop.asar",
-      "size": 32750463,
-      "sha256": "3d5367d37428bb77466ab10eee7c8b79c81d362bf3d1b87ec3793da9217b3d93"
+      "size": 32741326,
+      "sha256": "5e37d3e190676958b8d7d59d7f49138e0397e4bdc280bdb3406c96ab9c2ecec9"
     },
     {
       "name": "desktop.sha256",
       "size": 65,
-      "sha256": "36f2c3eed33177bbeba235461552a36b4cc0c621974810b14bab6957036d3ccd"
+      "sha256": "58db1bdc6d14312ee8e6b24de5f004c951d2ea41cda45cd536a4c00124d8f7a6"
     }
   ]
 }
