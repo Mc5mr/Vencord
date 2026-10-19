@@ -21,7 +21,7 @@ jobs:
         run: |
           set -euo pipefail
           tag=$(python3 -c 'import json; print(json.load(open("equicord-release.json"))["tag_name"])')
-          gh release create "$tag" release-files/* --repo "$GITHUB_REPOSITORY" --target "$GITHUB_SHA" --title "Mc5mr Equicord $tag" --latest --notes 'Match the six lower voice tools to the native Discord voice action buttons and theme. Restore the pink follow heart in the title bar: click to pause, click again to resume following the same person. Remove unnecessary follow and voice-rule delays and prevent voice event bursts from postponing pending checks. Keep permission checks, full-room waiting, manual mode, in-flight protection and same-room retry spacing. Includes all fixes from equicord-v25-27. Installation and updates require no account or password. Fully quit Discord and reopen after updating.'
+          gh release create "$tag" release-files/* --repo "$GITHUB_REPOSITORY" --target "$GITHUB_SHA" --title "Mc5mr Equicord $tag" --latest --notes 'Updates Equicord to upstream c3167a03, restores responsive plugin toggles, and fixes Stereo Hub setup with the verified PTB 1.0.1225 stereo profile. QuestSpoofer is excluded. The installer and package were rebuilt and verified. Fully quit Discord and reopen after updating.'
       - name: Verify account-free download access
         run: |
           set -euo pipefail

@@ -47,7 +47,7 @@ def read_parts(manifest):
     if not re.fullmatch(r"equicord-v[1-9][0-9]*-[1-9][0-9]*", tag):
         raise ValueError("Invalid release version")
     parts = manifest["archive_parts"]
-    if not isinstance(parts, list) or not 1 <= len(parts) <= 32:
+    if not isinstance(parts, list) or not 1 <= len(parts) <= 48:
         raise ValueError("Invalid compiled archive parts")
     result = []
     total = 0
@@ -62,7 +62,7 @@ def read_parts(manifest):
         if hashlib.sha256(data).hexdigest() != part["sha256"]:
             raise ValueError("Compiled archive part checksum mismatch")
         total += len(data)
-        if total > 64 * 1024 * 1024:
+        if total > 96 * 1024 * 1024:
             raise ValueError("Archive exceeds size limit")
         result.append(data)
     return b"".join(result)
