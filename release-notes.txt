@@ -1,0 +1,5 @@
+Fixes Token Importer layout, first-run encrypted storage, and conflicts between Discord installations. Readable legacy accounts remain available, and older encrypted files are preserved. The sign-in dialog waits for Discord to confirm the selected active account and displays an error when sign-in does not complete. The installer retains its included package when the public feed offers an older or identical version.
+
+Validation: storage and UI regression tests, installer tests, full TypeScript check, production build, and narrow-layout previews passed. Live sign-in with a real account was not tested.
+
+Fully close all Discord versions, run the installer, select the installation you use, choose Reinstall / Repair, then reopen Discord.
