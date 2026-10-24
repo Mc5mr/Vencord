@@ -1,10 +1,8 @@
-VoiceLists now lets you enable محروم مني and the per-user camera disconnect rule while nobody is in voice, including from profiles and DMs. Rules remain saved per account and resolve the correct server when the member appears.
+The top camera guard now affects only members in the exact voice room you are currently in.
 
-Adds a persistent camera-guard button to the top bar. Enable it per server to disconnect any other member who turns on their camera; it works while you are outside voice and requires your normal Move Members permission.
+The guard follows you automatically when you move to another voice room and scans that room for cameras already enabled.
 
-Rebuilds UserRadar with the full watchlist manager, Custom/Stalker/Lite/Silent presets, pinned users, per-user category overrides, searchable activity cards, daily stats, filters, message jumps, import/export, and richer message, edit, delete, typing, voice, camera, stream, presence, activity, profile, and shared-server tracking.
-
-Adds the pink articit queen profile badge for user 336713233257857024 using the supplied crown design.
+When you are outside voice, the option stays enabled but does not disconnect anyone in other rooms.
 
 Validation passed: TypeScript, ESLint, production build, installer tests, packaged ASAR hashing, and release asset verification.
 

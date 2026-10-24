@@ -1,785 +1,785 @@
 {
-  "tag_name": "equicord-v25-75",
-  "archive_sha256": "725450cbe1943cf651fd64652be19e392e5146889e9af1165cb23d533daebb35",
+  "tag_name": "equicord-v25-76",
+  "archive_sha256": "ce4c7b76bfde2f99732f7894a5723ef2c9ec01fe2cb5f762cfd958cb7a6d8026",
   "archive_parts": [
     {
-      "path": "release-parts/equicord-v25-75/part-000.bin",
+      "path": "release-parts/equicord-v25-76/part-000.bin",
       "size": 700000,
-      "sha256": "79b20ca9431d3d6ee7960013315d3f34ddc7c8ba8aaec258a157ffbb46cee55d"
+      "sha256": "e93b402088bf4cf6747599a8ff69fd3f59deff90175e9c1aa879c3ea08c078a2"
     },
     {
-      "path": "release-parts/equicord-v25-75/part-001.bin",
+      "path": "release-parts/equicord-v25-76/part-001.bin",
       "size": 700000,
-      "sha256": "f0f63d6313f252b2523e92b429f39d7426e1dd525055fc9e59d328521bd1c3a1"
+      "sha256": "9271ebc4321046acac0df2a93963defd49ac994e09f0e5f1839b4e4cbdd7261d"
     },
     {
-      "path": "release-parts/equicord-v25-75/part-002.bin",
+      "path": "release-parts/equicord-v25-76/part-002.bin",
       "size": 700000,
-      "sha256": "2707052de353ccba412efca4c2ce048a9a9e469edf152fc632b1f324a6366535"
+      "sha256": "73e43b4a04515a4292cf63052ffa2fd8eaf23db8ef1b7a86496aeb6c5afb3bbe"
     },
     {
-      "path": "release-parts/equicord-v25-75/part-003.bin",
+      "path": "release-parts/equicord-v25-76/part-003.bin",
       "size": 700000,
-      "sha256": "e51abf192db87d125bc8cdbdb6e5a4f48f5e5ce81cd939898e6e6447853aadaa"
+      "sha256": "45070ce09845160d2372f991a996e8507c25ccc91db7487b4901370d4f3e20ef"
     },
     {
-      "path": "release-parts/equicord-v25-75/part-004.bin",
+      "path": "release-parts/equicord-v25-76/part-004.bin",
       "size": 700000,
-      "sha256": "81398fe24eb2a195096944ec67072af4ce902f7b836ee42fd4be6413dd4d5402"
+      "sha256": "2ed0787a39d409510cdeb0075cc8e11701dbe5a72dd74c76b34399a8208d631e"
     },
     {
-      "path": "release-parts/equicord-v25-75/part-005.bin",
+      "path": "release-parts/equicord-v25-76/part-005.bin",
       "size": 700000,
-      "sha256": "6eac5eafcf68ba14888cf54620f776639290002a55e1cb8da4318c56d761961f"
+      "sha256": "0338def00d04486cc5cfad087a1f5594fbe08ab1dfcdd30f533fc472b9c64f90"
     },
     {
-      "path": "release-parts/equicord-v25-75/part-006.bin",
+      "path": "release-parts/equicord-v25-76/part-006.bin",
       "size": 700000,
-      "sha256": "384dd67003527a4e60e44d9731cf20155cb4965b3becff907989916b2d83c16c"
+      "sha256": "978c228130ca13505cdf057013051090ae35341d047880191aa29aa957e55d1d"
     },
     {
-      "path": "release-parts/equicord-v25-75/part-007.bin",
+      "path": "release-parts/equicord-v25-76/part-007.bin",
       "size": 700000,
-      "sha256": "24a58731f79c5a74f5bc3423617a77a8b9909c84efd38ff448fd2ccb796b0f53"
+      "sha256": "680930afc8fc5fa7d528a86d83aadac7f0b85734622182be3a208ffba67e7934"
     },
     {
-      "path": "release-parts/equicord-v25-75/part-008.bin",
+      "path": "release-parts/equicord-v25-76/part-008.bin",
       "size": 700000,
-      "sha256": "b96c94a9edbb7fe797d41973dd720cdaa47fb0659734df1c687a754a394fdb52"
+      "sha256": "9b7b2b2d625d7b5d9985cfc6be1f68debdb2e1ed02cc741ef036084f65551a7c"
     },
     {
-      "path": "release-parts/equicord-v25-75/part-009.bin",
+      "path": "release-parts/equicord-v25-76/part-009.bin",
       "size": 700000,
-      "sha256": "9a79bb80ae1e98daa4a74740077453cce32c1f2e7a4f02976808d8bb3605b040"
+      "sha256": "e5bcf75748be8eb9778f16cb419e10f601c66943d2c15e17d3d65cf0e77ff4ab"
     },
     {
-      "path": "release-parts/equicord-v25-75/part-010.bin",
+      "path": "release-parts/equicord-v25-76/part-010.bin",
       "size": 700000,
-      "sha256": "f6c7ced6838f90672554b5a44ffccb3990a1c98b36eb1da16f0c4b420241f2ce"
+      "sha256": "66aa87a6ece9c5bcc4b5eac4781d906b20da024122875f321fe1746f8c36b557"
     },
     {
-      "path": "release-parts/equicord-v25-75/part-011.bin",
+      "path": "release-parts/equicord-v25-76/part-011.bin",
       "size": 700000,
       "sha256": "12b37ad9afd0d53ce0f151e4a6da800270b1214f6b114d3011b5f70ea721c0bc"
     },
     {
-      "path": "release-parts/equicord-v25-75/part-012.bin",
+      "path": "release-parts/equicord-v25-76/part-012.bin",
       "size": 700000,
       "sha256": "2f01934e919c9dfaaa1a3c34d8260e33764aa4c5efd96131e759581d3b030a34"
     },
     {
-      "path": "release-parts/equicord-v25-75/part-013.bin",
+      "path": "release-parts/equicord-v25-76/part-013.bin",
       "size": 700000,
       "sha256": "cb9d0b5ced83fcfcf2fed3e4e1b521d9c39bbe2567efaa99d5b1ab4e98295d6b"
     },
     {
-      "path": "release-parts/equicord-v25-75/part-014.bin",
+      "path": "release-parts/equicord-v25-76/part-014.bin",
       "size": 700000,
-      "sha256": "f0adf0e6e4671b67fe4ba9abe40d181cb10581374075e9e0c5b5c7c1dcc005a5"
+      "sha256": "8307dd7fd722193ef6502f4cbd63db7ff81827f2583fcc0ddf95f96f1d030003"
     },
     {
-      "path": "release-parts/equicord-v25-75/part-015.bin",
+      "path": "release-parts/equicord-v25-76/part-015.bin",
       "size": 700000,
-      "sha256": "5bb040106ae72d9a2db5df46b0ed3f5bd3ef21bd225219a70039e92d4c2ac7fa"
+      "sha256": "6033d294f785322ef4923d08eb4d140cd0f9356e8ba59cce8a854e46bbf84b01"
     },
     {
-      "path": "release-parts/equicord-v25-75/part-016.bin",
+      "path": "release-parts/equicord-v25-76/part-016.bin",
       "size": 700000,
-      "sha256": "9cf8c748678b160ad08e015a13a320562dfe9d52bcb1e00439ee7ac17a133f50"
+      "sha256": "ee64f29913324917a0119524e0d71183dfa29ea278c3dd03948cda0ae5170ec2"
     },
     {
-      "path": "release-parts/equicord-v25-75/part-017.bin",
+      "path": "release-parts/equicord-v25-76/part-017.bin",
       "size": 700000,
       "sha256": "f02afaaee9edee50153b5ff11b4afee8b41c69619332f2fcf09ac2a7c9d91141"
     },
     {
-      "path": "release-parts/equicord-v25-75/part-018.bin",
+      "path": "release-parts/equicord-v25-76/part-018.bin",
       "size": 700000,
       "sha256": "4dad17448be5840aee50a21a75732b1301ebc23b4b59af8b2511624974dbac45"
     },
     {
-      "path": "release-parts/equicord-v25-75/part-019.bin",
+      "path": "release-parts/equicord-v25-76/part-019.bin",
       "size": 700000,
       "sha256": "392a05820eacbee70256f83f533995c3584b337f16f237baafaa2e2e514aacae"
     },
     {
-      "path": "release-parts/equicord-v25-75/part-020.bin",
+      "path": "release-parts/equicord-v25-76/part-020.bin",
       "size": 700000,
       "sha256": "aafc0064b23dfb6b7ec77952961a1bc564e5c63b702e9badfb63d65657a166a5"
     },
     {
-      "path": "release-parts/equicord-v25-75/part-021.bin",
+      "path": "release-parts/equicord-v25-76/part-021.bin",
       "size": 700000,
       "sha256": "b3ac82936fd1462168f56084107536f8d579d23de9395a5ea1b2c824ccba7cc3"
     },
     {
-      "path": "release-parts/equicord-v25-75/part-022.bin",
+      "path": "release-parts/equicord-v25-76/part-022.bin",
       "size": 700000,
       "sha256": "d74775cc7b2cd100790f7627efba53483773db3ee6d13711152d5343a6fde7c7"
     },
     {
-      "path": "release-parts/equicord-v25-75/part-023.bin",
+      "path": "release-parts/equicord-v25-76/part-023.bin",
       "size": 700000,
       "sha256": "77d1a5025df943bc853e266505e24b44d9a1e52a02a333bae492ab5de43a383f"
     },
     {
-      "path": "release-parts/equicord-v25-75/part-024.bin",
+      "path": "release-parts/equicord-v25-76/part-024.bin",
       "size": 700000,
       "sha256": "05c75ce73a3c2e793b6060cf3abe61fee4bfa689d48376a437f615ee07b64544"
     },
     {
-      "path": "release-parts/equicord-v25-75/part-025.bin",
+      "path": "release-parts/equicord-v25-76/part-025.bin",
       "size": 700000,
       "sha256": "556ed7eede3cb868407c22d4d63c2484492dc50db70c2650a9b2df3b7780a522"
     },
     {
-      "path": "release-parts/equicord-v25-75/part-026.bin",
+      "path": "release-parts/equicord-v25-76/part-026.bin",
       "size": 700000,
       "sha256": "aa42fffcd019bb3aa4971ef303ca8bb8d95f2d5ad4cdac2056b6e0f841626ce3"
     },
     {
-      "path": "release-parts/equicord-v25-75/part-027.bin",
+      "path": "release-parts/equicord-v25-76/part-027.bin",
       "size": 700000,
       "sha256": "ce3bcc097060f9be23d01d24c66eeef9462bbd732ea4c56874504eed624328c4"
     },
     {
-      "path": "release-parts/equicord-v25-75/part-028.bin",
+      "path": "release-parts/equicord-v25-76/part-028.bin",
       "size": 700000,
       "sha256": "9598afbd5263ccef5e9c873849df7f87f33bcae39517e34d686b24801c94fdd8"
     },
     {
-      "path": "release-parts/equicord-v25-75/part-029.bin",
+      "path": "release-parts/equicord-v25-76/part-029.bin",
       "size": 700000,
       "sha256": "d990747f9a7953e2fc87f7dd50a228fafb5c8717eda8b6176812dca2b63f1fe2"
     },
     {
-      "path": "release-parts/equicord-v25-75/part-030.bin",
+      "path": "release-parts/equicord-v25-76/part-030.bin",
       "size": 700000,
       "sha256": "9a0235f9189fee1cd159f39dbcd8a8aa487fa8d5e78faf55955f4b891522f7a7"
     },
     {
-      "path": "release-parts/equicord-v25-75/part-031.bin",
+      "path": "release-parts/equicord-v25-76/part-031.bin",
       "size": 700000,
       "sha256": "6de553d3738b881ce9451409f80fea376f601f9099961c739dd85791b09c15c3"
     },
     {
-      "path": "release-parts/equicord-v25-75/part-032.bin",
+      "path": "release-parts/equicord-v25-76/part-032.bin",
       "size": 700000,
       "sha256": "b4b35e4f3aba032fae743e71bbdce81aa586584754ffe1faa0b378198d13467e"
     },
     {
-      "path": "release-parts/equicord-v25-75/part-033.bin",
+      "path": "release-parts/equicord-v25-76/part-033.bin",
       "size": 700000,
       "sha256": "a44f23e6e9535f5c748bacef75ed8d61c9a3b6e93a5f54e7b362ba3c4fbeb57c"
     },
     {
-      "path": "release-parts/equicord-v25-75/part-034.bin",
+      "path": "release-parts/equicord-v25-76/part-034.bin",
       "size": 700000,
       "sha256": "23e6d646b9406264790e6a6d0574c31bfdfc37b19e0d6c112ccf084c27b9e9c2"
     },
     {
-      "path": "release-parts/equicord-v25-75/part-035.bin",
+      "path": "release-parts/equicord-v25-76/part-035.bin",
       "size": 700000,
       "sha256": "4e459cdfafe4235eb8420368d536b8d443809000be2ef05cc62ffbe45904fbe9"
     },
     {
-      "path": "release-parts/equicord-v25-75/part-036.bin",
+      "path": "release-parts/equicord-v25-76/part-036.bin",
       "size": 700000,
       "sha256": "b8abdd4893f47869ead424257b281a58ad6184a0f0d7e875657fa96437b34e41"
     },
     {
-      "path": "release-parts/equicord-v25-75/part-037.bin",
+      "path": "release-parts/equicord-v25-76/part-037.bin",
       "size": 700000,
       "sha256": "efe0b679555e7660cd91266506ae59084331a7a2ee230fcb2b44000673944bf7"
     },
     {
-      "path": "release-parts/equicord-v25-75/part-038.bin",
+      "path": "release-parts/equicord-v25-76/part-038.bin",
       "size": 700000,
-      "sha256": "be85905c1d67c89680beec05c74f739c40c196ba970547fb2fddb0a35c3664fe"
+      "sha256": "e0c39c16ff565f07fb3f0909cb511c192894657b91b98911793feb3d37473216"
     },
     {
-      "path": "release-parts/equicord-v25-75/part-039.bin",
+      "path": "release-parts/equicord-v25-76/part-039.bin",
       "size": 700000,
-      "sha256": "84333f3b4f76db1913d74673dd4ee08c4303e6e8fbfd4240a99598fbeebd9e6d"
+      "sha256": "1e3a127c19ae1351df6502c1f4e6fdc53820a4b23bbb83cabf63cc2997e0854f"
     },
     {
-      "path": "release-parts/equicord-v25-75/part-040.bin",
+      "path": "release-parts/equicord-v25-76/part-040.bin",
       "size": 700000,
-      "sha256": "9df4aa0389601072e354aaea175e4f2bf4a8a125a1324f9626315e94357eb300"
+      "sha256": "7e11bec7070231d1b6c8b8e390bb5e744182c68783f21e30c004793b063f54d1"
     },
     {
-      "path": "release-parts/equicord-v25-75/part-041.bin",
+      "path": "release-parts/equicord-v25-76/part-041.bin",
       "size": 700000,
-      "sha256": "58927cb46dd59c21812c7ffca1a24766a1a97825f232557f79f606859e0fe3e5"
+      "sha256": "802698cac343ec5b09bfdad77b2aab3da194b9251d1e128b5b4faf289a608409"
     },
     {
-      "path": "release-parts/equicord-v25-75/part-042.bin",
+      "path": "release-parts/equicord-v25-76/part-042.bin",
       "size": 700000,
-      "sha256": "465ee02da0d1cb4b3d379365238f7f098d9e3219153b17c6fd3e7335e54f7e12"
+      "sha256": "6b5cea7a072f4b68523160fb837eb8f752bc6d1b091f99fa11d261f807567c3e"
     },
     {
-      "path": "release-parts/equicord-v25-75/part-043.bin",
+      "path": "release-parts/equicord-v25-76/part-043.bin",
       "size": 700000,
-      "sha256": "1849e88a6afb9e68e6df066ac47e26bd3ed35409961da1ee013ae973d43b2c8a"
+      "sha256": "787c5cb2b482405283b7db18d263d1e5caa89f124240cd54f7820f9414f2989e"
     },
     {
-      "path": "release-parts/equicord-v25-75/part-044.bin",
+      "path": "release-parts/equicord-v25-76/part-044.bin",
       "size": 700000,
-      "sha256": "bd2ab09525748ea87682233a2fc8bf895b348b26d86b2cbf0512a85b680ae30b"
+      "sha256": "fd06e1b2697829cd6c444561fbefcfc30706597f0729331c4780a3c0d831b97d"
     },
     {
-      "path": "release-parts/equicord-v25-75/part-045.bin",
+      "path": "release-parts/equicord-v25-76/part-045.bin",
       "size": 700000,
-      "sha256": "3b4b7d5b6bd1a50ae481db4060557362cc3e8b3d5e4b55a95753b1b57c37ba84"
+      "sha256": "f126c22db50483ad6c6aa8e7e694ac8c61140e8994570cbd7245087b6c907e8e"
     },
     {
-      "path": "release-parts/equicord-v25-75/part-046.bin",
+      "path": "release-parts/equicord-v25-76/part-046.bin",
       "size": 700000,
-      "sha256": "70dea73b57495cd608e892a8d2d2654939795e01c7a0a24f566489037187a81e"
+      "sha256": "9428f7f65e76c025e0867c8535d2edadca1b66a6d83b2ccc299cff5166d396e6"
     },
     {
-      "path": "release-parts/equicord-v25-75/part-047.bin",
+      "path": "release-parts/equicord-v25-76/part-047.bin",
       "size": 700000,
-      "sha256": "2a34f12c9770e96bc294b8b55e53988bb1e28a2c6c98382f25236d598d3bd6d5"
+      "sha256": "e0b640bcbcbbd85c1c8e4d1ca314abeb6801a3d1fada0d79badf884e1f983f73"
     },
     {
-      "path": "release-parts/equicord-v25-75/part-048.bin",
+      "path": "release-parts/equicord-v25-76/part-048.bin",
       "size": 700000,
-      "sha256": "1abcc559872c89ae8c98fc1af561e40273761b7c99ab1919a695e38b4a02da76"
+      "sha256": "08c5c3229713e140b7ee34db150755fb1f39330cfc95bb07ee81aa27db0c3b1c"
     },
     {
-      "path": "release-parts/equicord-v25-75/part-049.bin",
+      "path": "release-parts/equicord-v25-76/part-049.bin",
       "size": 700000,
-      "sha256": "ff8d41efd17dd9632124f2dba7d5c620738746782de79c1f1a86a1e3d5fed006"
+      "sha256": "40396db4909bcf18c458b8aef5f5170c89760cfe0b584fbca6c3215deabcfaa1"
     },
     {
-      "path": "release-parts/equicord-v25-75/part-050.bin",
+      "path": "release-parts/equicord-v25-76/part-050.bin",
       "size": 700000,
-      "sha256": "c530cf97083251a9ef9579be7fe4c85644a309242cd54d65cdbd73ef7996b775"
+      "sha256": "b46c3f02f2614bdbe39bda147c589c61d2fe90825326ae346602601c709d0ff2"
     },
     {
-      "path": "release-parts/equicord-v25-75/part-051.bin",
+      "path": "release-parts/equicord-v25-76/part-051.bin",
       "size": 700000,
-      "sha256": "4bade99540d3b7b2ad036abca95ce75f734ea5aaf839dd07d07a4f6e3c2ccd6e"
+      "sha256": "74e524327caa44439bd4e0466bc96e1e484adb260b4b5245e3cd8a2c67ed727e"
     },
     {
-      "path": "release-parts/equicord-v25-75/part-052.bin",
+      "path": "release-parts/equicord-v25-76/part-052.bin",
       "size": 700000,
-      "sha256": "fa953d21cefc5f1138e36d91ceb06f9c6b81347cd583820e91054a80f583424c"
+      "sha256": "dc7e40e3de3b12b68a9863c804cb7c71ab6081eaea6690015094d2ca2a1de9a6"
     },
     {
-      "path": "release-parts/equicord-v25-75/part-053.bin",
+      "path": "release-parts/equicord-v25-76/part-053.bin",
       "size": 700000,
-      "sha256": "c47368c2bfcac0ab323d7513cfdc17b40e5560ccc6c5734b97c0b19f19ed1863"
+      "sha256": "6425e67656d818b4f2cccf10c1d957a1af53c4e360d1e2a076e0615fa81bcbe9"
     },
     {
-      "path": "release-parts/equicord-v25-75/part-054.bin",
+      "path": "release-parts/equicord-v25-76/part-054.bin",
       "size": 700000,
-      "sha256": "ab4a030e34c718b6cabf2dbe6f2428ebe7bf33b5230dd1a9fba73cd6f0ba1a28"
+      "sha256": "c0baa3af2e590717790ce6c1eeacbdcccca1e40b2684c9476edcf17a4f90438d"
     },
     {
-      "path": "release-parts/equicord-v25-75/part-055.bin",
+      "path": "release-parts/equicord-v25-76/part-055.bin",
       "size": 700000,
-      "sha256": "e044f0a65f2cf38c8cf93b167bd92225b3c10f4392b3087fdaf86f3cc74fa720"
+      "sha256": "df68eb8d493f12eb2221883a898b77f0b767516dd175f7e3241a6b0041836e37"
     },
     {
-      "path": "release-parts/equicord-v25-75/part-056.bin",
+      "path": "release-parts/equicord-v25-76/part-056.bin",
       "size": 700000,
-      "sha256": "1647086c3489a9d91707fc4b408dfed14e2dc683815f22504c4dd11340f49114"
+      "sha256": "5a42cc769309b0d7fd842b149be94b509713adefa37a230b4360485937b6fd40"
     },
     {
-      "path": "release-parts/equicord-v25-75/part-057.bin",
+      "path": "release-parts/equicord-v25-76/part-057.bin",
       "size": 700000,
-      "sha256": "34141aeabc47c814b0bcf7e8e469aeb3e68edbe307633c927e5f8852b4dfb7d3"
+      "sha256": "34c2fcdfe06e323f89c8af4033dd19661d2344e2020c290f4136270310b9ad6b"
     },
     {
-      "path": "release-parts/equicord-v25-75/part-058.bin",
+      "path": "release-parts/equicord-v25-76/part-058.bin",
       "size": 700000,
-      "sha256": "84f0c980f7c7693479122e9a68ee99d69fc5ee92a49e25060b49adff4a62e911"
+      "sha256": "9767fa4c1ad46d7ec591145910beb8450650492c6f2f2ecfb86ca1e13666236b"
     },
     {
-      "path": "release-parts/equicord-v25-75/part-059.bin",
+      "path": "release-parts/equicord-v25-76/part-059.bin",
       "size": 700000,
-      "sha256": "49d592e55e1d9a24e50d4d6596cfd16bb282e6b4b62a1fe20ac1e8a9987e88ec"
+      "sha256": "b7318ce434e7a85fb86615107bb2caf962d803c526097f8383270f72144a44ce"
     },
     {
-      "path": "release-parts/equicord-v25-75/part-060.bin",
+      "path": "release-parts/equicord-v25-76/part-060.bin",
       "size": 700000,
-      "sha256": "d0fce5935bf083a0495fd39f3e475b10a2158fdc681f12dd37b37c1eab98839f"
+      "sha256": "80410f361b305b265e41ffa59886d4648c94f621a0f4b1b466850441058a90fb"
     },
     {
-      "path": "release-parts/equicord-v25-75/part-061.bin",
+      "path": "release-parts/equicord-v25-76/part-061.bin",
       "size": 700000,
-      "sha256": "b51bc7b114d919c8869428e3e9beb1c9f12797c68512e7121959ccf58653b885"
+      "sha256": "6966c915ebc5bb1217a94a321bcac01d82a7cac2ca3b9c0decf2a837ca9cb60f"
     },
     {
-      "path": "release-parts/equicord-v25-75/part-062.bin",
+      "path": "release-parts/equicord-v25-76/part-062.bin",
       "size": 700000,
-      "sha256": "3d532cb6b7647f07dd9ae85ff8e565f3bac11d03f83fe360ce64b2ac78f4ba0b"
+      "sha256": "8988df969018ff559f7900cc90f9ace426c34d47651858f5a0974c8343601aaf"
     },
     {
-      "path": "release-parts/equicord-v25-75/part-063.bin",
+      "path": "release-parts/equicord-v25-76/part-063.bin",
       "size": 700000,
-      "sha256": "ab850900c1c3c859e49dfb3e4475c818748383fbd950bf65a487855abc2ea825"
+      "sha256": "cc7fb1ab2ad3e0ca20d17b333d76f1586cee0c630725c9f6a80a9b5bd6e3992c"
     },
     {
-      "path": "release-parts/equicord-v25-75/part-064.bin",
+      "path": "release-parts/equicord-v25-76/part-064.bin",
       "size": 700000,
-      "sha256": "33a61ea2b651471192b02e0241c103f7e0416e75ab7f52f1cd17211688e21d14"
+      "sha256": "84d9791c4d9a2cfb5ed93dd169f87c8fcc77fdd0a8d01ca14dc0bcaa881dd314"
     },
     {
-      "path": "release-parts/equicord-v25-75/part-065.bin",
+      "path": "release-parts/equicord-v25-76/part-065.bin",
       "size": 700000,
-      "sha256": "61d253f38551710568e3d7909f3f489b027bcb12ceddb3b421a80dddd9442193"
+      "sha256": "4996b01a00145172f83b61920cef4a26dacee6076ec59504d70b7164a5cb0e39"
     },
     {
-      "path": "release-parts/equicord-v25-75/part-066.bin",
+      "path": "release-parts/equicord-v25-76/part-066.bin",
       "size": 700000,
-      "sha256": "e20b9fac6933e23a57cac9ab8a0bc0cc380347abdb39758093bec4abd9a987f4"
+      "sha256": "224b86c6b0201956ff81cc2971359331441ebbd9a984467c1afc29c25f5a78a1"
     },
     {
-      "path": "release-parts/equicord-v25-75/part-067.bin",
+      "path": "release-parts/equicord-v25-76/part-067.bin",
       "size": 700000,
-      "sha256": "98cdcc7842e66d1f6772071f77618c425c075c820dfcc8642ecc183ba7db1280"
+      "sha256": "3c09895cb00b9411f5d33679686d43b0c8954a071a55eaaedd590f3f4dc949f1"
     },
     {
-      "path": "release-parts/equicord-v25-75/part-068.bin",
+      "path": "release-parts/equicord-v25-76/part-068.bin",
       "size": 700000,
-      "sha256": "71b8e0fac32e5f90dfecf5f54f659a66a04452f3067047e96af1bb196b2f62ec"
+      "sha256": "ddd59bc17231edfee1f06a26ebeed596540c0660a41a6a10d388f9bd03d5fb69"
     },
     {
-      "path": "release-parts/equicord-v25-75/part-069.bin",
+      "path": "release-parts/equicord-v25-76/part-069.bin",
       "size": 700000,
-      "sha256": "457e92d7926819a181a0980d69eec1c5962da06f276f5eb4655e81f93decda9d"
+      "sha256": "8496b0cf8bcb9fa4e8c10b4ed04a3f1c8ad404de2781e622628a0581998f9056"
     },
     {
-      "path": "release-parts/equicord-v25-75/part-070.bin",
+      "path": "release-parts/equicord-v25-76/part-070.bin",
       "size": 700000,
-      "sha256": "56b97b3a0f1f4d6906de33e4fac158af247db09639d0afdb06bb87da8b7e09d6"
+      "sha256": "d737041e078254d315ccc4c0278848f1f0952d4c217cef577477cfe553925e07"
     },
     {
-      "path": "release-parts/equicord-v25-75/part-071.bin",
+      "path": "release-parts/equicord-v25-76/part-071.bin",
       "size": 700000,
-      "sha256": "7c4c6621d30f222bf88de75828d187d3ad2afea25a7b308c28bf450c6f4da112"
+      "sha256": "03aca397a3b0fb959b38f305ffeb4d04e2aebe9eff5af4e1f8f301cf397e1af7"
     },
     {
-      "path": "release-parts/equicord-v25-75/part-072.bin",
+      "path": "release-parts/equicord-v25-76/part-072.bin",
       "size": 700000,
-      "sha256": "2c7ed23e13c48a102aadab5057d9bd76869730762df024a7c3687e118ae1f111"
+      "sha256": "3f998b19ab07e7e562cb2316b211bb5a986d5a81e34d910415cd9a22a81d7f6a"
     },
     {
-      "path": "release-parts/equicord-v25-75/part-073.bin",
+      "path": "release-parts/equicord-v25-76/part-073.bin",
       "size": 700000,
-      "sha256": "164b5198855a14dddac610bb953816db224dc5b93823752976b9167788242d85"
+      "sha256": "61785917bef7e0fae7d461208e186c444f6dd51cc17a0604e8614544ae4e760c"
     },
     {
-      "path": "release-parts/equicord-v25-75/part-074.bin",
+      "path": "release-parts/equicord-v25-76/part-074.bin",
       "size": 700000,
-      "sha256": "f42137bb5541a25007983555b62147ff9dfa391c5194b5b578a850373535221d"
+      "sha256": "d06e29147813addd52d844a33f04a876f12f06be061eea717cc1de312bdcd659"
     },
     {
-      "path": "release-parts/equicord-v25-75/part-075.bin",
+      "path": "release-parts/equicord-v25-76/part-075.bin",
       "size": 700000,
-      "sha256": "8bc0f51247960355e4e708588450c25d9d97018a5363b12d2a8f60b1e8e7a1eb"
+      "sha256": "e26a3430878a38e04760c9f973c4e5968fbcffa8db819b7eee52c4fd130bdfe2"
     },
     {
-      "path": "release-parts/equicord-v25-75/part-076.bin",
+      "path": "release-parts/equicord-v25-76/part-076.bin",
       "size": 700000,
-      "sha256": "629420da68efa62d4e34178854d1b3b036d1426b3c728a6c1017f2506ee0b970"
+      "sha256": "20745e8d0435bd374f2314ac052efcfc7669e972efc3647554af1f782d72cfa6"
     },
     {
-      "path": "release-parts/equicord-v25-75/part-077.bin",
+      "path": "release-parts/equicord-v25-76/part-077.bin",
       "size": 700000,
-      "sha256": "d43332a9d6e51e120fb902ed704f550c76fe08ad03b4c97703241f81e468a13d"
+      "sha256": "5c21b57fd1b66ef0b6d6bd2a2b60bb85489275de60fb322b7943ff5c2ead66eb"
     },
     {
-      "path": "release-parts/equicord-v25-75/part-078.bin",
+      "path": "release-parts/equicord-v25-76/part-078.bin",
       "size": 700000,
-      "sha256": "02a1e6ac3dac3debe6bcdbafa469252e24e01433cd7cb1d1f4bc324ca5267905"
+      "sha256": "001026d4f9242b1ca72b37c22a7d38d88f2a6d60730973601b4d20fda1b161d7"
     },
     {
-      "path": "release-parts/equicord-v25-75/part-079.bin",
+      "path": "release-parts/equicord-v25-76/part-079.bin",
       "size": 700000,
-      "sha256": "f1e1948f3cddd7df2c549b6de8bc568f423b10f4f9dc24d8322e9cf5dc7bd6d7"
+      "sha256": "b3c4b03c7998090b528670ca3d53615979e08a2a99689aa35f08010aa3235895"
     },
     {
-      "path": "release-parts/equicord-v25-75/part-080.bin",
+      "path": "release-parts/equicord-v25-76/part-080.bin",
       "size": 700000,
-      "sha256": "5f69587ae3b35392a5e77ac8024ccde27d27e1e47f49a9f67e89b33ad5f8518d"
+      "sha256": "d26262362ca60e6127e4c75783de289228e39f1388e27b31fd6fee050801e5b0"
     },
     {
-      "path": "release-parts/equicord-v25-75/part-081.bin",
+      "path": "release-parts/equicord-v25-76/part-081.bin",
       "size": 700000,
-      "sha256": "3c4af79e1119d654fefa2054c5f610844f503fc5455c6dff0a68d1b0af18e3f2"
+      "sha256": "2a7aacddafead94311827d372186ba0dbae2f2183947e4e2b71b5e3c817d3463"
     },
     {
-      "path": "release-parts/equicord-v25-75/part-082.bin",
+      "path": "release-parts/equicord-v25-76/part-082.bin",
       "size": 700000,
-      "sha256": "57ed8234153e931fbde04e677e866e8950a63c9550bd8ac65f93da6c7b2a40b3"
+      "sha256": "c3cf33a0d958877c8680ecfffd891962567ddd59326c7794a24245dd8c9c6c50"
     },
     {
-      "path": "release-parts/equicord-v25-75/part-083.bin",
+      "path": "release-parts/equicord-v25-76/part-083.bin",
       "size": 700000,
-      "sha256": "8caada00cee91b68d268a8841a4109000d70f3fec4267a915f0937c4b82c54c2"
+      "sha256": "fb91bde270f37cc9e4a97ab4822d1ab6e9cd2176f4c90c0255970919ac872bf8"
     },
     {
-      "path": "release-parts/equicord-v25-75/part-084.bin",
+      "path": "release-parts/equicord-v25-76/part-084.bin",
       "size": 700000,
       "sha256": "12793dbc433da90f1b3b54ecaf7de36a1a6801001b64ee5e2a0fa069b6a4e03b"
     },
     {
-      "path": "release-parts/equicord-v25-75/part-085.bin",
+      "path": "release-parts/equicord-v25-76/part-085.bin",
       "size": 700000,
       "sha256": "2fad63bc244c57646e5bc68fb9f512a98bff554ab468f9bd5f74e614c6f0b8c7"
     },
     {
-      "path": "release-parts/equicord-v25-75/part-086.bin",
+      "path": "release-parts/equicord-v25-76/part-086.bin",
       "size": 700000,
       "sha256": "76105e2e6306dbb6d1538e27e4dd5e6341c7239a1bc3395d7583d5238a48d58f"
     },
     {
-      "path": "release-parts/equicord-v25-75/part-087.bin",
+      "path": "release-parts/equicord-v25-76/part-087.bin",
       "size": 700000,
       "sha256": "3207a62ccf26a14364d771159f6c38ff67dfba542ddd8cc52fb67b9a35a35a4d"
     },
     {
-      "path": "release-parts/equicord-v25-75/part-088.bin",
+      "path": "release-parts/equicord-v25-76/part-088.bin",
       "size": 700000,
       "sha256": "224f33edc2e56f1ac872a142db3bb673f55a5be37aca1ad23fb36efafb5c88f4"
     },
     {
-      "path": "release-parts/equicord-v25-75/part-089.bin",
+      "path": "release-parts/equicord-v25-76/part-089.bin",
       "size": 700000,
       "sha256": "bd9f46336216885b14bab7ca4098ea78bb55ce1373959a4b4fcf78cc543e97b3"
     },
     {
-      "path": "release-parts/equicord-v25-75/part-090.bin",
+      "path": "release-parts/equicord-v25-76/part-090.bin",
       "size": 700000,
       "sha256": "3a3ca1d6ff22938c50429d9e341b5f71b175ad5aa6c6a7a6115e76d6bb441d74"
     },
     {
-      "path": "release-parts/equicord-v25-75/part-091.bin",
+      "path": "release-parts/equicord-v25-76/part-091.bin",
       "size": 700000,
       "sha256": "126309379113d10ac6b57dc0d2ef124e368a95994a9a11d42955b8be380d9889"
     },
     {
-      "path": "release-parts/equicord-v25-75/part-092.bin",
+      "path": "release-parts/equicord-v25-76/part-092.bin",
       "size": 700000,
       "sha256": "520c5c9ff048bfc3a64b607ab5124bb5c490fbce92875342e07474793a84b903"
     },
     {
-      "path": "release-parts/equicord-v25-75/part-093.bin",
+      "path": "release-parts/equicord-v25-76/part-093.bin",
       "size": 700000,
       "sha256": "881e3e9445eeb4da750447ecb9163911c3b965f5b7535d53683ff4751e618f5f"
     },
     {
-      "path": "release-parts/equicord-v25-75/part-094.bin",
+      "path": "release-parts/equicord-v25-76/part-094.bin",
       "size": 700000,
       "sha256": "ebcbb5acbe869c1fa5d83ec64ac8b48f396a53f0733ba2ee8648034b154a367e"
     },
     {
-      "path": "release-parts/equicord-v25-75/part-095.bin",
+      "path": "release-parts/equicord-v25-76/part-095.bin",
       "size": 700000,
       "sha256": "f768f0a563d730ded0051cfb134d9b7f2fb0158cca51e4f9eb708966795250cb"
     },
     {
-      "path": "release-parts/equicord-v25-75/part-096.bin",
+      "path": "release-parts/equicord-v25-76/part-096.bin",
       "size": 700000,
       "sha256": "54cf352ffc4e169b08eead77f5121161442c3f733c5105a41f35c1a2a4db782e"
     },
     {
-      "path": "release-parts/equicord-v25-75/part-097.bin",
+      "path": "release-parts/equicord-v25-76/part-097.bin",
       "size": 700000,
       "sha256": "91d52751090f457aa8e26f789c7a29fe8e4f63ec959a336d79525ffd44d75ed9"
     },
     {
-      "path": "release-parts/equicord-v25-75/part-098.bin",
+      "path": "release-parts/equicord-v25-76/part-098.bin",
       "size": 700000,
       "sha256": "08486c931c21b557edae020ce9d50c7baa61c22e9106b7f867637291b92403cf"
     },
     {
-      "path": "release-parts/equicord-v25-75/part-099.bin",
+      "path": "release-parts/equicord-v25-76/part-099.bin",
       "size": 700000,
       "sha256": "ff68575aaf7f00faf95cba2e08f2fafb9f4c8d69f3b26a61152d0f87cfb29455"
     },
     {
-      "path": "release-parts/equicord-v25-75/part-100.bin",
+      "path": "release-parts/equicord-v25-76/part-100.bin",
       "size": 700000,
       "sha256": "91bdfc5f805a29cf63948c16bdfe3aafd607bd22784ba7be329261d9ce009013"
     },
     {
-      "path": "release-parts/equicord-v25-75/part-101.bin",
+      "path": "release-parts/equicord-v25-76/part-101.bin",
       "size": 700000,
       "sha256": "a5cd4615735871a39565b745e041c791087fd76bcd8f9178ca0b2be891a23388"
     },
     {
-      "path": "release-parts/equicord-v25-75/part-102.bin",
+      "path": "release-parts/equicord-v25-76/part-102.bin",
       "size": 700000,
       "sha256": "8963da418650820d9ade79b7365dea8344eab98c8ca3ce1bce939d81f1b84fd5"
     },
     {
-      "path": "release-parts/equicord-v25-75/part-103.bin",
+      "path": "release-parts/equicord-v25-76/part-103.bin",
       "size": 700000,
       "sha256": "460f37465ef6b560c6b6763fa8f52ddc02908964d7a601e66ce08ba5db002b69"
     },
     {
-      "path": "release-parts/equicord-v25-75/part-104.bin",
+      "path": "release-parts/equicord-v25-76/part-104.bin",
       "size": 700000,
       "sha256": "4d6781df594e3ea8f221a717b3713349dc266c5e647fdfd66354bb74ffdb7db7"
     },
     {
-      "path": "release-parts/equicord-v25-75/part-105.bin",
+      "path": "release-parts/equicord-v25-76/part-105.bin",
       "size": 700000,
-      "sha256": "6e43c8386eba517b9d02c862be1d716aacf8b67a34e7cb7830249b7e82919f64"
+      "sha256": "7f6116419a8b793ec26a86acdd83f7cce7993adda286e5e0ae22cac1323a1b46"
     },
     {
-      "path": "release-parts/equicord-v25-75/part-106.bin",
+      "path": "release-parts/equicord-v25-76/part-106.bin",
       "size": 700000,
-      "sha256": "b06177822c77ea83bee03a200dc4cfc47a84f983166508ef0fedd013e1ed211f"
+      "sha256": "9f2b231e721ee5c4af9b8c97b3592a00820b1f34411eacbd89acf8db78ced977"
     },
     {
-      "path": "release-parts/equicord-v25-75/part-107.bin",
+      "path": "release-parts/equicord-v25-76/part-107.bin",
       "size": 700000,
-      "sha256": "04b9e64b0174ce2f6678682b029e1c689ad5352c3a52e9ef71c4738ec410d22d"
+      "sha256": "adaa79f5e51b8d49f3087f02d41b063e20e57829034c5c8cdcec0e74c044a350"
     },
     {
-      "path": "release-parts/equicord-v25-75/part-108.bin",
+      "path": "release-parts/equicord-v25-76/part-108.bin",
       "size": 700000,
-      "sha256": "b090ca37870bcbeb4004855fe047acde72b1265be966c8a158605edc03ba0b30"
+      "sha256": "e64237600a0dfc9b0b1da88a75577380d67d0374906fc3198cc0259bfabad6e1"
     },
     {
-      "path": "release-parts/equicord-v25-75/part-109.bin",
+      "path": "release-parts/equicord-v25-76/part-109.bin",
       "size": 700000,
-      "sha256": "2da4eb31cc38b034052e1807e716c786f97ea773ee7bad20f442f77c74db3463"
+      "sha256": "1fdd87233bc40682b8c7ea825819142439466d2bccf2b5dce65f314e56e893c5"
     },
     {
-      "path": "release-parts/equicord-v25-75/part-110.bin",
+      "path": "release-parts/equicord-v25-76/part-110.bin",
       "size": 700000,
-      "sha256": "5e92472f5da07c976ad97881150280185bc14c1adb1aa817e28f351a9b0adb62"
+      "sha256": "9da3d5057f26355a8d1afa0e874300b146b96c1ca33f4558ce6de997950544a8"
     },
     {
-      "path": "release-parts/equicord-v25-75/part-111.bin",
+      "path": "release-parts/equicord-v25-76/part-111.bin",
       "size": 700000,
-      "sha256": "fb04af7a4a5ae8e523a5d6808f89d67e427002caa12c279459e0f57d7d33838d"
+      "sha256": "f1cfc060cb0b7e3f3e7774ed3c5d7711732ea0f8ea436c9af1df71f8b1ae2cd4"
     },
     {
-      "path": "release-parts/equicord-v25-75/part-112.bin",
+      "path": "release-parts/equicord-v25-76/part-112.bin",
       "size": 700000,
-      "sha256": "e80fdf162911475595ee7610ee234a9c2b5bac73eab1e52d091819f885988ece"
+      "sha256": "6fd0bae126f359f3bf72ae83edfc2429dab71417b454304e3c7cd775d734a26e"
     },
     {
-      "path": "release-parts/equicord-v25-75/part-113.bin",
+      "path": "release-parts/equicord-v25-76/part-113.bin",
       "size": 700000,
-      "sha256": "85aaa41c7cf8595f4bff0758acd42abef9de3a43b3869a1d4366ca193fa036a9"
+      "sha256": "beecb3e87551cf66807872c823105da029ac81a5ecb0eb8bcf330685e7940ea5"
     },
     {
-      "path": "release-parts/equicord-v25-75/part-114.bin",
+      "path": "release-parts/equicord-v25-76/part-114.bin",
       "size": 700000,
-      "sha256": "8ed767c32261c778ad1004b4546efc8a171a60f0f3b3b07ef3e985651088cdbb"
+      "sha256": "9a80969120375a4b7d1290d0d42bb77467423df64ca02cb55341630edb5cc4a1"
     },
     {
-      "path": "release-parts/equicord-v25-75/part-115.bin",
+      "path": "release-parts/equicord-v25-76/part-115.bin",
       "size": 700000,
-      "sha256": "b6f71e5efd15bd8a5a63f39b2535ae3040edc41b75bccf298c6d22a4d39cbf0c"
+      "sha256": "ad0981d5a31b6f1c04b7974d9b7266f6889cd44a944c40cf97547cee5d97a8fa"
     },
     {
-      "path": "release-parts/equicord-v25-75/part-116.bin",
+      "path": "release-parts/equicord-v25-76/part-116.bin",
       "size": 700000,
-      "sha256": "1d9c902f528c171e2fa51df3261ce19cdaa2bd1e4ec997d8df9e29778aa558a9"
+      "sha256": "4692eeb751e8f2e6526e045609fe73c2624c71edf2359c396f2a9be6b2fcca15"
     },
     {
-      "path": "release-parts/equicord-v25-75/part-117.bin",
+      "path": "release-parts/equicord-v25-76/part-117.bin",
       "size": 700000,
-      "sha256": "c2345467a090e620d21e8e7073a65bcc61bc5fabb5731d856d89bad1484fd2a1"
+      "sha256": "33bb6ae9c7a50b914dab154cc01c97e10ad70aa8cfa587ee505965a7cad5e65b"
     },
     {
-      "path": "release-parts/equicord-v25-75/part-118.bin",
+      "path": "release-parts/equicord-v25-76/part-118.bin",
       "size": 700000,
-      "sha256": "643bd8cb5bc1ab666d8515c3df2b1ae4282f82fb9cd87539e944be8302787992"
+      "sha256": "634afdc1ec7e9d84466b9b125f07bd9ba20108ad6985d30560ade8d5afa0f75e"
     },
     {
-      "path": "release-parts/equicord-v25-75/part-119.bin",
+      "path": "release-parts/equicord-v25-76/part-119.bin",
       "size": 700000,
-      "sha256": "012855bad073f247d8af79120b8542ef44170d46ceed0ba1e48fda99b72a3bfb"
+      "sha256": "57bf8161662aa1304a06cd1033dd64443bc8afc7cba64faae61716dc1d06876e"
     },
     {
-      "path": "release-parts/equicord-v25-75/part-120.bin",
+      "path": "release-parts/equicord-v25-76/part-120.bin",
       "size": 700000,
-      "sha256": "7e205e0d29eae3d8f43b2f05cae7c52a8a01d8a7d907a13bae52cf6384848343"
+      "sha256": "96ed752f3be0d28d843acaa81a103008057ba60afd04ae1edd91fa6197ae235a"
     },
     {
-      "path": "release-parts/equicord-v25-75/part-121.bin",
+      "path": "release-parts/equicord-v25-76/part-121.bin",
       "size": 700000,
-      "sha256": "32abb0eaa7ec5ecf8e19ccac380e3aea78b18edcaf29f2e5a0c76d831e26df58"
+      "sha256": "b1e0c70462b5851aaf51dc26b5ea59c9388f25ab96f2040e6319be2b4af5803b"
     },
     {
-      "path": "release-parts/equicord-v25-75/part-122.bin",
+      "path": "release-parts/equicord-v25-76/part-122.bin",
       "size": 700000,
-      "sha256": "77303f85708e3dd382cbe99500467fb3ade0d0809bc62fc70c04417d92ab29bc"
+      "sha256": "8f21a11f90225276976b948b157fe1f52a562e694788e8403d71a8a370e05c98"
     },
     {
-      "path": "release-parts/equicord-v25-75/part-123.bin",
+      "path": "release-parts/equicord-v25-76/part-123.bin",
       "size": 700000,
-      "sha256": "fa46c02df190178a77ad62356663638acab889daa5536181e73440ac8d3eb100"
+      "sha256": "af7c3939d5e5d7acd596c990a834e55b314fa07ddb726060d71a2192219dd62e"
     },
     {
-      "path": "release-parts/equicord-v25-75/part-124.bin",
+      "path": "release-parts/equicord-v25-76/part-124.bin",
       "size": 700000,
-      "sha256": "f6d78524c3fb2c583bfd7316e3d11a7bf38a245dfd2b2b6aff07af123618a304"
+      "sha256": "ed4444ca22b8868e8304d1de5c577ecad9bce2d369f31e4659a60b17e42f690a"
     },
     {
-      "path": "release-parts/equicord-v25-75/part-125.bin",
+      "path": "release-parts/equicord-v25-76/part-125.bin",
       "size": 700000,
-      "sha256": "ba3e2c6be2de68de72a6f34a3beb99a07dcade1452fbbfc17af86d7ab03954ad"
+      "sha256": "81ed5ca3c23e03dd2e0ad4e541203d565c20f7e4e603d6f4e8d980a9bc8a0cff"
     },
     {
-      "path": "release-parts/equicord-v25-75/part-126.bin",
+      "path": "release-parts/equicord-v25-76/part-126.bin",
       "size": 700000,
-      "sha256": "633c7f4e42c8d9f4cad3cdbd0d4da7290d2a532ba6b2773451317692c59f7f72"
+      "sha256": "7c4f50c18e0f40ced62cbe541ca0a3f5ef32d4cd3dff74e22d5572d0202ab924"
     },
     {
-      "path": "release-parts/equicord-v25-75/part-127.bin",
+      "path": "release-parts/equicord-v25-76/part-127.bin",
       "size": 700000,
-      "sha256": "60c64a716c376866c47aa5870b0bdba0844bf364c7d7d02c2246829209fdc5e0"
+      "sha256": "75da2dae9e6e4c19fb58311621c338da95983b5ce621dd231067b19cb9e8e7cb"
     },
     {
-      "path": "release-parts/equicord-v25-75/part-128.bin",
+      "path": "release-parts/equicord-v25-76/part-128.bin",
       "size": 700000,
-      "sha256": "18c957dc9f53031e90600a07c0f8cb8b58078783f45057d40b8501eeaa7ab3d8"
+      "sha256": "b8479a54b0470830184ab3f425a8bb36ef5f1271d10ecde3fe2ab00ea9670adc"
     },
     {
-      "path": "release-parts/equicord-v25-75/part-129.bin",
+      "path": "release-parts/equicord-v25-76/part-129.bin",
       "size": 700000,
-      "sha256": "50e5158acd7501cc21316766894ee4f48f1f5ba8f47978f52dbd78ab218dfc5f"
+      "sha256": "caae383b6a65222d37d18707c041c6f84a533811add1a208c60ee4ffa1204883"
     },
     {
-      "path": "release-parts/equicord-v25-75/part-130.bin",
+      "path": "release-parts/equicord-v25-76/part-130.bin",
       "size": 700000,
-      "sha256": "69c855856fe423ef74029c3c4ecf0cd395da6e1829e401010dcecd767683f48c"
+      "sha256": "ae1490db25913470d171aa9f4fe5bc919db80f121388dc96f1d9c9cb1f9e57b6"
     },
     {
-      "path": "release-parts/equicord-v25-75/part-131.bin",
+      "path": "release-parts/equicord-v25-76/part-131.bin",
       "size": 700000,
-      "sha256": "eff0f0fa9a04a7308d9f5cf235ce6c43bcf1b1815b7adb01aea8bea87f045d2d"
+      "sha256": "5a096bc59c78319715e7a827220466cf0441b7417893c3ac0b25843d4e3ac1c8"
     },
     {
-      "path": "release-parts/equicord-v25-75/part-132.bin",
+      "path": "release-parts/equicord-v25-76/part-132.bin",
       "size": 700000,
-      "sha256": "186373b8e18a5ced0d750ea65adc24867ffd07764b2918a345cf3aed644271bd"
+      "sha256": "c354528a80916e7b67e12dae58e1d5f1ad1ce320041d6de4f9de1b6f9dd3220a"
     },
     {
-      "path": "release-parts/equicord-v25-75/part-133.bin",
+      "path": "release-parts/equicord-v25-76/part-133.bin",
       "size": 700000,
-      "sha256": "0adcc8babb6a9bc605f3ee55aefc0bc2b7284534a175bcf1fc36a6da6c620c25"
+      "sha256": "6262895c071d714819e2e62024e006b1a5fcc325e84df70bac55feaeca21c604"
     },
     {
-      "path": "release-parts/equicord-v25-75/part-134.bin",
+      "path": "release-parts/equicord-v25-76/part-134.bin",
       "size": 700000,
-      "sha256": "3f0de11037a558901bfa642b5fa84611818cf2b53678ff0a4f25341976f805fa"
+      "sha256": "3c8f16b0137cee83981a4901a11625ce74e0e0fd4a5b2e6d5ca30c81000e5964"
     },
     {
-      "path": "release-parts/equicord-v25-75/part-135.bin",
+      "path": "release-parts/equicord-v25-76/part-135.bin",
       "size": 700000,
-      "sha256": "e642255b278e695750626dfe65c1fd8a228b83243119c1bb3f773c648d7b0159"
+      "sha256": "b720abc0640977cfddbf0f7284792da0406c87644de9879acd208111079a5922"
     },
     {
-      "path": "release-parts/equicord-v25-75/part-136.bin",
+      "path": "release-parts/equicord-v25-76/part-136.bin",
       "size": 700000,
-      "sha256": "cbfbb60feba11a1f82c3318bde691afefc55fdcd9b0c37660dc6cdebdf184357"
+      "sha256": "38f0d926ed7d82eb6733edb7ed3834d22a1ca90deae61eea53f83990df270427"
     },
     {
-      "path": "release-parts/equicord-v25-75/part-137.bin",
+      "path": "release-parts/equicord-v25-76/part-137.bin",
       "size": 700000,
-      "sha256": "82f157e88c290a22ff0ff9e9695bfe04410ed1d85d8ef472b70c7e0c112e2829"
+      "sha256": "a700c1a771323bc020037ee3efebbc29674a020d3e1d273be7b4cc548f6bf5bf"
     },
     {
-      "path": "release-parts/equicord-v25-75/part-138.bin",
+      "path": "release-parts/equicord-v25-76/part-138.bin",
       "size": 700000,
-      "sha256": "172549b68a92fda0c1ed7f0c34b1a209d4fc5112121fc0cf0da670e2222396c5"
+      "sha256": "b0e94a90daadd5da88d63d39d8adb7d5d92cbe09489ca244ac7670e0a730383e"
     },
     {
-      "path": "release-parts/equicord-v25-75/part-139.bin",
+      "path": "release-parts/equicord-v25-76/part-139.bin",
       "size": 700000,
-      "sha256": "9abd58d6648c061d7827412ad6f2ed7cf5088246e03bb85dd31d098b3b7cd72d"
+      "sha256": "b333b3d04cc3e54ab86c977f0651bb3fe63e738a2ed6dd36a13cf4816dee5e4d"
     },
     {
-      "path": "release-parts/equicord-v25-75/part-140.bin",
+      "path": "release-parts/equicord-v25-76/part-140.bin",
       "size": 700000,
-      "sha256": "eff1f7eecd0a583807830a6cbfd87b68072ad510160c2eca29d28df956f07ed9"
+      "sha256": "d242a5a65fa9f74e6289fb36de148314c017e34466ae01fd1d66942814407bd6"
     },
     {
-      "path": "release-parts/equicord-v25-75/part-141.bin",
+      "path": "release-parts/equicord-v25-76/part-141.bin",
       "size": 700000,
-      "sha256": "1224077a7ef1b9d2a6184003091b3545e375030803f8b471f2a75fdb0e1bd161"
+      "sha256": "afa5236b5b0e2b99f397e6a6eb4e79f9de559c3e78adf93fcfc38a82d1b148b4"
     },
     {
-      "path": "release-parts/equicord-v25-75/part-142.bin",
+      "path": "release-parts/equicord-v25-76/part-142.bin",
       "size": 700000,
-      "sha256": "de15d1cc9572aed1783736f77d43714c6d16ee7f0925d066dded9cdf82930a3d"
+      "sha256": "aa58c03318b45ed0ab4d312ae5ce72fb22dd975588f3722c0dcf84e52a050bd4"
     },
     {
-      "path": "release-parts/equicord-v25-75/part-143.bin",
+      "path": "release-parts/equicord-v25-76/part-143.bin",
       "size": 700000,
-      "sha256": "ecebe77ca6c32084186cd87889f4cd3de58ca74ad81ad6ccea836004a0d9d1ee"
+      "sha256": "46082ae1688e4e9a262fabf44760de3ac1b4034dda284ccd43f892f3f530dddb"
     },
     {
-      "path": "release-parts/equicord-v25-75/part-144.bin",
+      "path": "release-parts/equicord-v25-76/part-144.bin",
       "size": 700000,
-      "sha256": "5f805b95bcb244ae2d02a0d049927dc88d70fd219c7ad714db98113fe57f32ef"
+      "sha256": "01352bdfc38310f97eedb238414421c9780f84062380d3b80c7b1290f77702fa"
     },
     {
-      "path": "release-parts/equicord-v25-75/part-145.bin",
+      "path": "release-parts/equicord-v25-76/part-145.bin",
       "size": 700000,
-      "sha256": "4a7e618b75cec70c7d044c05682ab683e22a5f126e35db2a2ec2e8d49a926c2c"
+      "sha256": "7e5c7be337837b35a720280935a8967b719059abc328c6fc9b93d0381f2274ed"
     },
     {
-      "path": "release-parts/equicord-v25-75/part-146.bin",
+      "path": "release-parts/equicord-v25-76/part-146.bin",
       "size": 700000,
-      "sha256": "c47a093ecb250390961f5adcd66ffc49a3b815c87526afaa4b1b125d21a4576b"
+      "sha256": "41f3c1676240899e63f7fe4e2fcedbcc5024cf5019ff3c2499f5cee0771c59f6"
     },
     {
-      "path": "release-parts/equicord-v25-75/part-147.bin",
+      "path": "release-parts/equicord-v25-76/part-147.bin",
       "size": 700000,
-      "sha256": "a2876cfb0d2f8e49ad38b4cd27b7ce8d121b202cf6ec1f71db17087af500c403"
+      "sha256": "6ae0219cfeb953a098692ed108dd8d3165bdc98685649290a636a8ad8866770a"
     },
     {
-      "path": "release-parts/equicord-v25-75/part-148.bin",
+      "path": "release-parts/equicord-v25-76/part-148.bin",
       "size": 700000,
-      "sha256": "b379a67f2ca002b1dc932e4d42ff16f293a230c2d4aa495dce372a13e9b8f4be"
+      "sha256": "e057ab6dd2cb01ee8b42046512f315f6fa6a9f03e0b0d01951579bc2917c9209"
     },
     {
-      "path": "release-parts/equicord-v25-75/part-149.bin",
+      "path": "release-parts/equicord-v25-76/part-149.bin",
       "size": 700000,
-      "sha256": "abc61fbc68108b79a059cc8b25cf4ba64e5e3a00e6194aa3bb383538206ec316"
+      "sha256": "ee17cc495fb4ff7877c636c8092014fb165cc57ec1eacf37ea95d6a285b7e2e0"
     },
     {
-      "path": "release-parts/equicord-v25-75/part-150.bin",
-      "size": 142482,
-      "sha256": "a633641aad0d16533b428c147fe1547f4e5519568ef815345aa78131626c831e"
+      "path": "release-parts/equicord-v25-76/part-150.bin",
+      "size": 142740,
+      "sha256": "00c8cc34e9457098a6c9493fb2172381203de9a688c417f095df8ec65ca8a4ef"
     }
   ],
   "assets": [
     {
       "name": "Mc5mr-Equicord-Installer.exe",
       "size": 58722304,
-      "sha256": "9389a00a9d2cb6d8703cbacb01614e9b5e17fdd69c2348840b702d361f2c3890"
+      "sha256": "ec7dfb32d9b6d3b04b6efabc28e359a8a89b2ec36178c766a4b6849588e5ebc0"
     },
     {
       "name": "Mc5mr-Equicord-Installer.exe.sha256",
       "size": 65,
-      "sha256": "de41f3455b5adb04aa6432c3ec8e9b2681f2a5a5730858078d14724fd023cb4e"
+      "sha256": "d5d634be5bf9bbb8c710e6d371740992e497d24169ec9336e997b9b0ab6d3278"
     },
     {
       "name": "desktop.asar",
-      "size": 46419544,
-      "sha256": "8c65e8bb965a54bf1d01922d59fb5b7eeeac2593946da202210fa5910976a88b"
+      "size": 46419802,
+      "sha256": "6033ee91560a738e55e2ec6d693817fc09817cdb1159be15bf71df2841db9e48"
     },
     {
       "name": "desktop.sha256",
       "size": 65,
-      "sha256": "980eeabdc8ba083c5c454eb0cf59cacdb86a5070dd8c4dcc1fa32ceec7e7a320"
+      "sha256": "563cfe3c8961376d12ccc1134ddcb880bdca7fdacb9a70704ea3175e93a3b9b2"
     }
   ],
-  "notes": "VoiceLists now lets you enable محروم مني and the per-user camera disconnect rule while nobody is in voice, including from profiles and DMs. Rules remain saved per account and resolve the correct server when the member appears.\n\nAdds a persistent camera-guard button to the top bar. Enable it per server to disconnect any other member who turns on their camera; it works while you are outside voice and requires your normal Move Members permission.\n\nRebuilds UserRadar with the full watchlist manager, Custom/Stalker/Lite/Silent presets, pinned users, per-user category overrides, searchable activity cards, daily stats, filters, message jumps, import/export, and richer message, edit, delete, typing, voice, camera, stream, presence, activity, profile, and shared-server tracking.\n\nAdds the pink articit queen profile badge for user 336713233257857024 using the supplied crown design.\n\nValidation passed: TypeScript, ESLint, production build, installer tests, packaged ASAR hashing, and release asset verification."
+  "notes": "The top camera guard now affects only members in the exact voice room you are currently in.\n\nThe guard follows you automatically when you move to another voice room and scans that room for cameras already enabled.\n\nWhen you are outside voice, the option stays enabled but does not disconnect anyone in other rooms.\n\nValidation passed: TypeScript, ESLint, production build, installer tests, packaged ASAR hashing, and release asset verification."
 }
 
