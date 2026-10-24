@@ -1,5 +1,10 @@
-Fixes Token Importer layout, first-run encrypted storage, and conflicts between Discord installations. Readable legacy accounts remain available, and older encrypted files are preserved. The sign-in dialog waits for Discord to confirm the selected active account and displays an error when sign-in does not complete. The installer retains its included package when the public feed offers an older or identical version.
+StereoInstaller now embeds the exact verified files supplied in villain nodes (1).zip and replaces the matching files inside discord_voice while preserving unrelated files. A full original backup is created before replacement and Revert restores it.
 
-Validation: storage and UI regression tests, installer tests, full TypeScript check, production build, and narrow-layout previews passed. Live sign-in with a real account was not tested.
+Adds persistent per-account VoiceLists actions: محروم مني disconnects a selected member whenever they enter your voice room, and فصل عند تشغيل الكاميرا disconnects them when they enable camera. Both require the signed-in account's server permission and include queueing and rate limits.
 
-Fully close all Discord versions, run the installer, select the installation you use, choose Reinstall / Repair, then reopen Discord.
+Adds the local UserRadar watchlist for visible message, edit, cached delete, typing, voice, camera, stream, presence, profile and shared-server events. It is disabled by default.
+
+Enables the right-click emoji/sticker server picker, retains Token Importer's isolated encrypted vault fixes and Server Cloner safeguards, and includes the current official Equicord and Vencord plugin set.
+
+Validation passed: TypeScript, ESLint, Token Importer regressions, stereo payload hashes, replacement preservation, packaged helper self-check, production build, installer tests, embedded-ASAR verification, and Windows Defender scan.
+
