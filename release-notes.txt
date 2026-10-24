@@ -1,8 +1,6 @@
-The top camera guard now affects only members in the exact voice room you are currently in.
+Removes StreamPlaybackFix completely from the bundled plugin list and compiled build.
 
-The guard follows you automatically when you move to another voice room and scans that room for cameras already enabled.
+Discord stream playback returns to its normal codec selection and decoding behavior.
 
-When you are outside voice, the option stays enabled but does not disconnect anyone in other rooms.
-
-Validation passed: TypeScript, ESLint, production build, installer tests, packaged ASAR hashing, and release asset verification.
+Validation passed: TypeScript, production build, installer tests, packaged ASAR hashing, and release asset verification.
 
