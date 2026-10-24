@@ -1,10 +1,10 @@
-StereoInstaller now embeds the exact verified files supplied in villain nodes (1).zip and replaces the matching files inside discord_voice while preserving unrelated files. A full original backup is created before replacement and Revert restores it.
+VoiceLists now lets you enable محروم مني and the per-user camera disconnect rule while nobody is in voice, including from profiles and DMs. Rules remain saved per account and resolve the correct server when the member appears.
 
-Adds persistent per-account VoiceLists actions: محروم مني disconnects a selected member whenever they enter your voice room, and فصل عند تشغيل الكاميرا disconnects them when they enable camera. Both require the signed-in account's server permission and include queueing and rate limits.
+Adds a persistent camera-guard button to the top bar. Enable it per server to disconnect any other member who turns on their camera; it works while you are outside voice and requires your normal Move Members permission.
 
-Adds the local UserRadar watchlist for visible message, edit, cached delete, typing, voice, camera, stream, presence, profile and shared-server events. It is disabled by default.
+Rebuilds UserRadar with the full watchlist manager, Custom/Stalker/Lite/Silent presets, pinned users, per-user category overrides, searchable activity cards, daily stats, filters, message jumps, import/export, and richer message, edit, delete, typing, voice, camera, stream, presence, activity, profile, and shared-server tracking.
 
-Enables the right-click emoji/sticker server picker, retains Token Importer's isolated encrypted vault fixes and Server Cloner safeguards, and includes the current official Equicord and Vencord plugin set.
+Adds the pink articit queen profile badge for user 336713233257857024 using the supplied crown design.
 
-Validation passed: TypeScript, ESLint, Token Importer regressions, stereo payload hashes, replacement preservation, packaged helper self-check, production build, installer tests, embedded-ASAR verification, and Windows Defender scan.
+Validation passed: TypeScript, ESLint, production build, installer tests, packaged ASAR hashing, and release asset verification.
 
