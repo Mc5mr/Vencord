@@ -1,6 +1,12 @@
-Removes StreamPlaybackFix completely from the bundled plugin list and compiled build.
+Installer now updates only the selected Discord branch; Stable, PTB, and Canary use separate Equicord packages so the other clients may stay open.
 
-Discord stream playback returns to its normal codec selection and decoding behavior.
+Existing settings stay in their original directory. The restart updater accepts the current package size.
 
-Validation passed: TypeScript, production build, installer tests, packaged ASAR hashing, and release asset verification.
+Added optional Bookmarks and Performance plugins from reqonpublishes/vencord-custom-plugins, pinned to 1f7b95444018907324580a72437220faffadad75 with lifecycle fixes. Enable them in Plugins. Attribution is included in THIRD_PARTY_PLUGINS.md. This release does not include every public or private GitHub plugin.
+
+UserRadar has Watchlist and Activity Log tabs, presets, per-user controls, statistics, search, filters, import, and export. Activity rows load in batches and the message cache is limited to watched users.
+
+Token Importer accepts copied tokens with surrounding quotes and invisible formatting, reports storage failures more clearly, and preserves unreadable account files. Verify & Add and saved-account switching were tested with fixtures; live Discord sign-in still needs user verification.
+
+Validation: targeted ESLint, TypeScript, production build, mocked Token Importer tests, installer tests, and package hash verification.
 
